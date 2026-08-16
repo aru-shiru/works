@@ -20,6 +20,7 @@ Local folders are the clone names under `~/code` (same as the GitHub repo name).
 | [SIMPEL](simpel.md) | `dishub-perlengkapan-jalan-monorepo`, `sulselprov-dishub-pj`, `paserkab-dishub-pj`, `samarindakota-dishub-pj` | *(not on GitHub Selected Projects)* Sistem Informasi Manajemen Perlengkapan Jalan | Tech Lead | Jun 2025 – present | Production (3 dinas on Fly.io) |
 | [Narrative Phone](narrative-phone.md) | `narrativephone-android`, `narrativephone-ios` | Narrative Phone — Healthcare Video Calling App | Tech Lead (then sole native) | Aug 2023 – 2024 (first iteration) | Live; you left after v1 |
 | [Crowdfunding](crowdfunding.md) | `wakafyuk`, `wakafyuk_mobile`, `berbagi-sesama`, `wakaf-bangun-negeri` | *(Lamacca product; not on GitHub Selected)* Wakafyuk, Bantu Sesama, Wakaf Bangun Negeri | Flutter/API → sole → Tech Lead | 2020 – 2024 | Production (three foundations) |
+| [Journaltime](journaltime.md) | `journaltime`, `journaltime_mobile` | *(Lamacca product; not on GitHub Selected)* Media Online — Journaltime.co | Flutter + Functions (Luthfi on CMS/web) | Jul – Oct 2020 (last web tweak Apr 2022) | Shipped (Journaltime.co) |
 | [Brainplus](brainplus.md) | `brainplus_mobile`, `brainplus` | *(Lamacca product; not on GitHub Selected)* Brainplus — edtech / psychometric | Sole Full-Stack Engineer | Aug 2019 – Jun 2020 | Shipped (first Flutter app) |
 
 **SimplePol** — Production health-check platform for Indonesian driving-license (SIM) applicants: identity verification, examination, payment, and official certificates across clinics, mobile units, and police jurisdictions.
@@ -42,13 +43,15 @@ Local folders are the clone names under `~/code` (same as the GitHub repo name).
 
 **Crowdfunding** — Three generations: Wakafyuk (you + Luthfi; Flutter/dashboard/API vs Next/MUI + LinkAja); Bantu Sesama (you alone, first Midtrans); Wakaf Bangun Negeri (you lead Bimo, Nadella, Nana, zakikii).
 
+**Journaltime** — Lamacca Media Online (Journaltime.co). Same pairing as Wakafyuk: you Flutter + most Functions (Algolia, FCM, slugs); Luthfi Next reader site + most of the Bootstrap/JW CMS. No MAU in-repo.
+
 **Brainplus** — First Flutter app (2019). Sole: psychometric/aptitude tests, Factory+Strategy scoring on Cloud Functions, React Bootstrap admin.
 
 ---
 
 ## What to brief next
 
-**Suggested next:** leftover **product** — **Media Online / Journaltime**.
+**Suggested next:** remaining `/work` — start with **PBAS Website & Career Information System** (first Needs-brief row on the company site).
 
 Confirm you actually owned each card before writing a brief — these are Lamacca company pages, not a personal resume. Marketing years on `/work` can disagree with git (e.g. Advansia listed 2023; Indonesia product was live since 2021).
 
@@ -61,7 +64,7 @@ Confirm you actually owned each card before writing a brief — these are Lamacc
 | 03 | Brainplus (edtech / psychometric) | Done | [brainplus.md](brainplus.md) |
 | 04 | Crowdfunding (Wakafyuk.id, Bantusesama.id) | Done | [crowdfunding.md](crowdfunding.md) *(WBN too; not on this card)* |
 | 05 | Cleaning Service Management (Sekaiichi) | Done | [sekaiichi.md](sekaiichi.md) |
-| 06 | **Media Online** (Journaltime.co) | Needs brief | — |
+| 06 | Media Online (Journaltime.co) | Done | [journaltime.md](journaltime.md) |
 | 07 | SIMPEL | Done | [simpel.md](simpel.md) |
 
 ### Work — [lamacca.com/work](https://lamacca.com/work)
@@ -103,8 +106,7 @@ Order is the site order. **Next** = no `*.md` yet. **Skip** = still on the compa
 
 ### Suggested briefing order
 
-1. **Media Online / Journaltime** — leftover product  
-2. Remaining `/work` rows still marked Needs brief (Kaltara cluster, e-KAHMI, e-Perdatin, PBAS, PAN congress, 2019 LSI situation room, Sulsel library geo-attendance, Prima Nusantara)  
-3. Then re-rank GitHub Selected Projects against the full set  
+1. Remaining `/work` rows still marked Needs brief — **PBAS**, then ISBE, Kaltara cluster (SIMAS / standard price / asset recon / room / Banhub), e-KAHMI, e-Perdatin, PAN congress, 2019 LSI situation room, Sulsel library geo-attendance, Prima Nusantara  
+2. Then re-rank GitHub Selected Projects against the full set  
 
 **Do not brief:** e-SIAP Korlantas (Figma, discontinued); Patra Logistik (WordPress, not your work).
