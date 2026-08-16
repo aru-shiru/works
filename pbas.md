@@ -2,13 +2,13 @@
 
 **Role:** Full-stack (recruitment / Functions / i18n); homepage & CMS pair with Luthfi  
 **Client / product:** **PT Patra Badak Arun Solusi (PBAS)** — Pertamina-group energy services (EPC, commissioning, O&M, plant services, training). Corporate **homepage** plus a **career / applicant** module.  
-**Period:** **29 Sep 2020 – 1 Feb 2022** (git). Luthfi first commit 29 Sep 2020; you start **7 Oct 2020** (`applicant pages`). Your last commit **21 Jan 2022**; last repo activity Luthfi merge **1 Feb 2022**. Lamacca `/work` year: **2020 — 2022**.  
+**Period:** **29 Sep 2020 – 1 Feb 2022** (git). Luthfi first commit 29 Sep 2020; you start **7 Oct 2020** (`applicant pages`). Your last commit **21 Jan 2022**; last repo activity Luthfi merge **1 Feb 2022**. Lamacca `/work` year: **2020** (first commit year).  
 **Team:** **Muhammad Dzul Arsyil** + **Mohammad Luthfi Fathur Rahman** (`mollfpr` / `luthfi` / `luthfi.ufi14@gmail.com`) — same pairing as Journaltime / Wakafyuk. `lamaccatech` / `pbasolusi` = GitHub merges, not feature authors.  
 **Repo:** `~/code/pbas-web` (`pbasolusi/pbas-web`) — not under `lamaccatech/`
 
 This document is a **source brief**, not a finished resume entry.
 
-Public listing: Lamacca [work](https://lamacca.com/work) **PBAS Website & Career Information System (2020 — 2022)** — “corporate website … careers module that runs the company’s new-employee recruitment process end to end.” **Not** on `/products`. **Not** on GitHub Selected Projects. **No MAU / applicant counts** in git — do not invent. HRD dashboard reads `stats/counter` (`openPositions`, `applicants`) at **runtime**.
+Public listing: Lamacca [work](https://lamacca.com/work) **PBAS Website & Career Information System (2020)** — “corporate website … careers module that runs the company’s new-employee recruitment process end to end.” **Not** on `/products`. **Not** on GitHub Selected Projects. **No MAU / applicant counts** in git — do not invent. HRD dashboard reads `stats/counter` (`openPositions`, `applicants`) at **runtime**.
 
 Your own one-liner is right: **homepage, with additional recruitment.** Git split: **Luthfi led the public site + CMS**; **you owned the career pipeline** (applicant/HRD UI, callables, Algolia career/users, `show` flag).
 
@@ -113,7 +113,7 @@ With Luthfi I shipped PBAS’s homepage and CMS; I owned the career add-on — o
 
 ### 4.3 Medium blurb
 
-PBAS needed a company site and a way to take applications. Luthfi led the Next 10 / Bootstrap brochure and the CRA content admin (news, projects, journey, clients). From Oct 2020 I added recruitment: public `/career`, applicant register/apply, HRD dashboards, Algolia, and callables that promote or reject through five stages and convert a hire to `employee`. Year **2020 — 2022**. No applicant volume in the repo.
+PBAS needed a company site and a way to take applications. Luthfi led the Next 10 / Bootstrap brochure and the CRA content admin (news, projects, journey, clients). From Oct 2020 I added recruitment: public `/career`, applicant register/apply, HRD dashboards, Algolia, and callables that promote or reject through five stages and convert a hire to `employee`. Site year **2020**. No applicant volume in the repo.
 
 ### 4.4 Bullets
 
@@ -132,7 +132,7 @@ Next.js, React, Redux, Bootstrap, Firebase (Auth, Firestore, Functions, Storage)
 |---|---|
 | “I built the PBAS website” | **Two people.** You recruitment + Functions; **Luthfi homepage/CMS**. |
 | “ATS / Workday-class HRIS” | Five-stage Firestore funnel + files. No payroll, no e-sign. |
-| “2023 project” | Old marketing year. **Git and site: 2020 — 2022.** |
+| “2023 project” | Old marketing year. **Site year is first commit: 2020.** |
 | Applicant / hire counts | **Unknown.** Only live `stats/counter`. |
 | ThemePunch / Revolution slider | **Vendor** in Luthfi’s early dump. |
 | “Patra Logistik” | **Different `/work` card**; WordPress; you **skip**. |

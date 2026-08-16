@@ -8,7 +8,7 @@
 
 This document is a **source brief**, not a finished resume entry.
 
-Public GitHub listing: **Narrative Phone — Healthcare Video Calling App** on [aru-shiru/aru-shiru](https://github.com/aru-shiru/aru-shiru). Lamacca `/work` card: **2023 — 2024**, xCareField. **No MAU** on either — do not invent. Landing (published 2 Mar 2026) is the live marketing page, **not** a changelog of *your* first iteration.
+Public GitHub listing: **Narrative Phone — Healthcare Video Calling App** on [aru-shiru/aru-shiru](https://github.com/aru-shiru/aru-shiru). Lamacca `/work` card: **2023**, xCareField. **No MAU** on either — do not invent. Landing (published 2 Mar 2026) is the live marketing page, **not** a changelog of *your* first iteration.
 
 **Before AI assistants** (this work is 2023–2024). You learned CallKit, PushKit, Zoom MobileRTC custom meeting UI, and enough Kotlin/Swift to own both trees after the engineers resigned. Do not thread Claude/Cursor into this story.
 

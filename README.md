@@ -47,9 +47,9 @@ Local folders are the clone names under `~/code` (same as the GitHub repo name).
 
 **Journaltime** — Lamacca Media Online (Journaltime.co). Same pairing as Wakafyuk: you Flutter + most Functions (Algolia, FCM, slugs); Luthfi Next reader site + most of the Bootstrap/JW CMS. No MAU in-repo.
 
-**PBAS** — Patra Badak Arun Solusi homepage (Luthfi, Next/CRA CMS) plus recruitment you added: five-stage HRD funnel, applicant accounts, `/career`. Year **2020 — 2022**. Not Patra Logistik.
+**PBAS** — Patra Badak Arun Solusi homepage (Luthfi, Next/CRA CMS) plus recruitment you added: five-stage HRD funnel, applicant accounts, `/career`. Site year **2020**. Not Patra Logistik.
 
-**ISBE** — BPKH Dewas internal dashboard (Laravel 8 / Skote). You remember review + comms; git shows 54 of your commits (filters, Excel import, logging) after junior Renaldi Apriyanto scaffolded the UI. Year **2021 — 2022**. No AUM.
+**ISBE** — BPKH Dewas internal dashboard (Laravel 8 / Skote). You remember review + comms; git shows 54 of your commits (filters, Excel import, logging) after junior Renaldi Apriyanto scaffolded the UI. Site year **2021**. No AUM.
 
 **Brainplus** — First Flutter app (2019). Sole: psychometric/aptitude tests, Factory+Strategy scoring on Cloud Functions, React Bootstrap admin.
 
@@ -59,7 +59,7 @@ Local folders are the clone names under `~/code` (same as the GitHub repo name).
 
 **Suggested next:** remaining `/work` — Kaltara cluster, starting with **SIMAS**.
 
-Confirm you actually owned each card before writing a brief — these are Lamacca company pages, not a personal resume. `/work` years for briefed items are first–last **git** commits (not marketing). Remaining Needs-brief rows are still unverified.
+Confirm you actually owned each card before writing a brief — these are Lamacca company pages, not a personal resume. `/work` years for briefed items are the **first git-commit year**, except **SIMPAN / e-Partai** which keeps a range for the 2021 product and 2025 rewrite. Remaining Needs-brief rows are still unverified.
 
 ### Products — [lamacca.com/products](https://lamacca.com/products)
 
@@ -80,18 +80,18 @@ Order is the site order. **Next** = no `*.md` yet. **Skip** = still on the compa
 | Public name (year on site) | Client | Brief? |
 |---|---|---|
 | SIMPAN — Party Management Super App (2021 — 2026) | PAN | Done — [e-partai.md](e-partai.md) |
-| ADV Live — Agriculture Field Operations (2025 — 2026) | Advansia ID + MY | Done — [advlive.md](advlive.md) *(ID Firestore since 2021; rewrite git Oct 2025)* |
-| Cleaning Service Management System (2024 — 2026) | PT Sekaiichi Dwiputra Service | Done — [sekaiichi.md](sekaiichi.md) |
-| e-Hibah Mabes Polri (2024 — 2026) | Mabes Polri | Done — [e-hibah-polri.md](e-hibah-polri.md) |
+| ADV Live — Agriculture Field Operations (2025) | Advansia ID + MY | Done — [advlive.md](advlive.md) *(ID Firestore since 2021; rewrite git Oct 2025)* |
+| Cleaning Service Management System (2024) | PT Sekaiichi Dwiputra Service | Done — [sekaiichi.md](sekaiichi.md) |
+| e-Hibah Mabes Polri (2024) | Mabes Polri | Done — [e-hibah-polri.md](e-hibah-polri.md) |
 | e-SIAP Korlantas Polri (2024) | ISDC Korlantas Polri | **Skip** — Figma only; project discontinued |
-| e-Watch — Campaign Field Monitoring (2022 — 2025) | LSI Denny JA · Puspoll | Done — [e-watch-lsi.md](e-watch-lsi.md) *(Puspoll not in that brief)* |
-| Pantau Relawan — Multi-Party Campaign Deployments (2023 — 2026) | PAN, Golkar, PKB, PKS, Demokrat, LSI | Done — [pantau-relawan.md](pantau-relawan.md) |
-| Wakafyuk & Bantusesama — Donation Platforms (2020 — 2024) | Wakafyuk.id · Bantusesama.id | Done — [crowdfunding.md](crowdfunding.md) *(plus WBN, not on this card)* |
-| NarrativePhone — Secure Care Calling (2023 — 2024) | xCareField (Japan) | Done — [narrative-phone.md](narrative-phone.md) |
-| PBAS Website & Career Information System (2020 — 2022) | Patra Badak Arun Solusi | Done — [pbas.md](pbas.md) |
+| e-Watch — Campaign Field Monitoring (2022) | LSI Denny JA · Puspoll | Done — [e-watch-lsi.md](e-watch-lsi.md) *(Puspoll not in that brief)* |
+| Pantau Relawan — Multi-Party Campaign Deployments (2023) | PAN, Golkar, PKB, PKS, Demokrat, LSI | Done — [pantau-relawan.md](pantau-relawan.md) |
+| Wakafyuk & Bantusesama — Donation Platforms (2020) | Wakafyuk.id · Bantusesama.id | Done — [crowdfunding.md](crowdfunding.md) *(plus WBN, not on this card)* |
+| NarrativePhone — Secure Care Calling (2023) | xCareField (Japan) | Done — [narrative-phone.md](narrative-phone.md) |
+| PBAS Website & Career Information System (2020) | Patra Badak Arun Solusi | Done — [pbas.md](pbas.md) |
 | Patra Logistik Corporate Website (2023) | Pertamina Patra Logistik | **Skip** — WordPress; you did not contribute |
-| ISBE Investment Monitoring Dashboard (2021 — 2022) | BPKH RI | Done — [isbe.md](isbe.md) |
-| SIMPEL — Road Equipment Management (2025 — 2026) | Site lists Dishub Samarinda · Paser only | Done — [simpel.md](simpel.md) *(also Sulsel; not on this card)* |
+| ISBE Investment Monitoring Dashboard (2021) | BPKH RI | Done — [isbe.md](isbe.md) |
+| SIMPEL — Road Equipment Management (2025) | Site lists Dishub Samarinda · Paser only | Done — [simpel.md](simpel.md) *(also Sulsel; not on this card)* |
 | **SIMAS — Asset Management Information System (2024)** | Biro Umum Setda Kaltara | Needs brief |
 | **Standard Price Information System (2023)** | BKAD Kaltara | Needs brief |
 | **Asset Reconciliation Information System (2023)** | BKAD Kaltara | Needs brief |

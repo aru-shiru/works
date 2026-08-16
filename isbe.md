@@ -1,8 +1,8 @@
 # ISBE Investment Monitoring Dashboard (BPKH) — Resume Project Brief
 
 **Role:** Tech lead for **one junior** — review + client/comms **and** hands-on senior code (filters, Excel import, logging, roles). **Not** comms-only. **Not** sole builder.  
-**Client / product:** Internal dashboard for **BPKH Dewan Pengawas, bidang ISBE**. UI: **“DASHBOARD DEWAS BIDANG ISBE”**. Lamacca `/work`: **ISBE Investment Monitoring Dashboard (2021 — 2022)** · BPKH RI.  
-**Period:** **24 Dec 2021 – 18 Jan 2022** (~26 days). Junior first (`inisialisasi`). You last (`fix: data table tidak menampilkan data sesuai filter`). Lamacca `/work` year is **2021 — 2022** (was wrongly **2024**).  
+**Client / product:** Internal dashboard for **BPKH Dewan Pengawas, bidang ISBE**. UI: **“DASHBOARD DEWAS BIDANG ISBE”**. Lamacca `/work`: **ISBE Investment Monitoring Dashboard (2021)** · BPKH RI.  
+**Period:** **24 Dec 2021 – 18 Jan 2022** (~26 days). Junior first (`inisialisasi`). You last (`fix: data table tidak menampilkan data sesuai filter`). Lamacca `/work` year is **2021** (first commit; was wrongly **2024**).  
 **Team:** **Renaldi Apriyanto** (`Sylents-Sys` / `renaldiapriyanto419@gmail.com`) — junior who bootstrapped Laravel + Skote and most CRUD/UI. **You** — 54 unique commits on `main` vs his 31. No Luthfi, Bimo, Nana.  
 **Repo:** `~/code/dashboard-bpkh` (`lamaccatech/dashboard-bpkh`)
 
@@ -96,7 +96,7 @@ Led one junior on BPKH’s Dewas ISBE dashboard: he built the Skote/Laravel scre
 
 ### 4.3 Medium blurb
 
-Over ~four weeks at New Year 2021/22, Renaldi Apriyanto bootstrapped a Skote Laravel admin for BPKH Dewan Pengawas (RKAT, portofolio including emas, permohonan persetujuan ISBE). I was the senior: client communication, review, and the backend slice git still shows — FilterPeriod, repositories/view-models, PhpSpreadsheet import, ActionLogger, login throttle, and division-aware queries. Company site year: **2021 — 2022**. No AUM in source.
+Over ~four weeks at New Year 2021/22, Renaldi Apriyanto bootstrapped a Skote Laravel admin for BPKH Dewan Pengawas (RKAT, portofolio including emas, permohonan persetujuan ISBE). I was the senior: client communication, review, and the backend slice git still shows — FilterPeriod, repositories/view-models, PhpSpreadsheet import, ActionLogger, login throttle, and division-aware queries. Company site year: **2021**. No AUM in source.
 
 ### 4.4 Bullets
 
@@ -116,7 +116,7 @@ Laravel 8, PHP, Eloquent, Blade, Laravel Mix, Bootstrap, DataTables, PhpSpreadsh
 | “I built the ISBE dashboard” | **He** scaffolded UI/CRUD. You the extraction/filters/import/log. |
 | “Tech lead of a team” | **One** named junior: Renaldi Apriyanto (`Sylents-Sys`). |
 | AUM / “gold portfolio of N trillion” | **Unknown.** Charts are DB-backed; leftover Apex copy says “points.” |
-| “2024 project” | Was the old marketing year. **Git and corrected site: Dec 2021 – Jan 2022.** |
+| “2024 project” | Was the old marketing year. **Site year is first commit: 2021.** |
 | Spatie permissions / huge admin kit | Skote leftovers. Live roles are **four strings**. |
 | Production URL / MAU | **None in repo.** Heroku Procfile only. |
 | Seed `12345` passwords | Test users. Do not paste as credentials. |
