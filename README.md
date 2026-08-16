@@ -59,7 +59,7 @@ Local folders are the clone names under `~/code` (same as the GitHub repo name).
 
 **Suggested next:** remaining `/work` — Kaltara cluster, starting with **SIMAS**.
 
-Confirm you actually owned each card before writing a brief — these are Lamacca company pages, not a personal resume. `/work` years for briefed items are the **first git-commit year**, except **SIMPAN / e-Partai** and **ADV Live**, which keep a range for original product plus rewrite. Remaining Needs-brief rows are still unverified.
+Confirm you actually owned each card before writing a brief — these are Lamacca company pages, not a personal resume. `/work` years for briefed items are the **first git-commit year** (product start). Remaining Needs-brief rows are still unverified.
 
 ### Products — [lamacca.com/products](https://lamacca.com/products)
 
@@ -79,8 +79,8 @@ Order is the site order. **Next** = no `*.md` yet. **Skip** = still on the compa
 
 | Public name (year on site) | Client | Brief? |
 |---|---|---|
-| SIMPAN — Party Management Super App (2021 — 2026) | PAN | Done — [e-partai.md](e-partai.md) |
-| ADV Live — Agriculture Field Operations (2021 — 2026) | Advansia ID + MY | Done — [advlive.md](advlive.md) |
+| SIMPAN — Party Management Super App (2021) | PAN | Done — [e-partai.md](e-partai.md) |
+| ADV Live — Agriculture Field Operations (2021) | Advansia ID + MY | Done — [advlive.md](advlive.md) |
 | Cleaning Service Management System (2024) | PT Sekaiichi Dwiputra Service | Done — [sekaiichi.md](sekaiichi.md) |
 | e-Hibah Mabes Polri (2024) | Mabes Polri | Done — [e-hibah-polri.md](e-hibah-polri.md) |
 | e-SIAP Korlantas Polri (2024) | ISDC Korlantas Polri | **Skip** — Figma only; project discontinued |
