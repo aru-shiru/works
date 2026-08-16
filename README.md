@@ -85,7 +85,7 @@ Order is the site order. **Next** = no `*.md` yet. **Skip** = still on the compa
 | e-Hibah Mabes Polri (2024) | Mabes Polri | Done — [e-hibah-polri.md](e-hibah-polri.md) |
 | e-SIAP Korlantas Polri (2024) | ISDC Korlantas Polri | **Skip** — Figma only; project discontinued |
 | e-Watch — Campaign Field Monitoring (2022) | LSI Denny JA · Puspoll | Done — [e-watch-lsi.md](e-watch-lsi.md) *(Puspoll not in that brief)* |
-| Pantau Relawan — Multi-Party Campaign Deployments (2023) | PAN, Golkar, PKB, PKS, Demokrat, LSI | Done — [pantau-relawan.md](pantau-relawan.md) |
+| Pantau Relawan — Multi-Party Campaign Deployments (2018) | PAN, Golkar, PKB, PKS, Demokrat, LSI | Done — [pantau-relawan.md](pantau-relawan.md) |
 | Wakafyuk & Bantusesama — Donation Platforms (2020) | Wakafyuk.id · Bantusesama.id | Done — [crowdfunding.md](crowdfunding.md) *(plus WBN, not on this card)* |
 | NarrativePhone — Secure Care Calling (2023) | xCareField (Japan) | Done — [narrative-phone.md](narrative-phone.md) |
 | PBAS Website & Career Information System (2020) | Patra Badak Arun Solusi | Done — [pbas.md](pbas.md) |
