@@ -8,6 +8,8 @@
 
 This document is intentionally detailed. Use **§1–3** as source material, then copy **§4 Suggested resume copy** when you need something short.
 
+Public GitHub listing: **Advansia — Agricultural Sales Force Automation** on [aru-shiru/aru-shiru](https://github.com/aru-shiru/aru-shiru). That card describes the **live Indonesia Firestore predecessor** (Next.js + Expo + 17 Express Cloud Functions), not this ADVLive rewrite. Public metrics on that card: **50K+** sales records · **~100K** field activities · **100+** internal users.
+
 ---
 
 ## 1. Project overview
@@ -415,6 +417,8 @@ TypeScript, NestJS, Nuxt 4, Expo/React Native, Firebase (Auth, Data Connect, Rem
 ### 4.5 What not to claim
 
 - Do not invent MAU, revenue, or “migrated N million rows in production” unless you have the number from ops. The runner design is “~100× vs laptop proxy”; the prior-project anecdote in infra docs is not automatically this project’s prod result.
+- GitHub Selected Projects lists this as **Advansia**, not ADVLive, and still describes the **Firestore + 17 Cloud Functions** Indonesia app. Interviewers who only read the profile will hear that stack. This brief is the rewrite (Data Connect / Malaysia).
+- Public metrics already on that GitHub card: **50K+** sales records, **~100K** field activities, **100+** internal users — cite the profile for the Indonesia predecessor; do not treat them as Malaysia launch numbers.
 - GitHub `reviewed-by:aru-shiru` is empty — reviews happened as merges, comments outside the review API, and in-person/async guidance. Say **“reviewed and merged teammate PRs / set the review standard”**, not “N GitHub reviews.”
 - Line-count (~346k / ~263k) is a weak resume number (lockfile + generated + assets). Prefer domains and architecture.
 
@@ -437,4 +441,4 @@ TypeScript, NestJS, Nuxt 4, Expo/React Native, Firebase (Auth, Data Connect, Rem
 
 ---
 
-*Generated from the ADVLive repository (specs, packages, infra, and git history for Muhammad Dzul Arsyil / `aru-shiru`) and the live predecessor in `lamaccatech/apps/advansia`, as of 16 August 2026. Facts are from the repos; user counts and commercial outcomes are omitted on purpose.*
+*Generated from the ADVLive repository (specs, packages, infra, and git history for Muhammad Dzul Arsyil / `aru-shiru`), the live predecessor in `lamaccatech/apps/advansia`, and the Advansia section of github.com/aru-shiru/aru-shiru as of 16 August 2026. Facts are from the repos; user counts and commercial outcomes beyond the public GitHub card are omitted on purpose.*

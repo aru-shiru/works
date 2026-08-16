@@ -7,6 +7,8 @@
 
 This document is a **source brief**, not a finished resume entry. Sections 1–3 are detailed on purpose so they can be trimmed later. Section 4 has ready-to-paste resume bullets.
 
+Public GitHub listing: **SimplePol — Health Check Management System** on [aru-shiru/aru-shiru](https://github.com/aru-shiru/aru-shiru). The profile card is shorter and slightly stale vs this brief (it still says SQLite / 24 models / 5 roles). Public metrics already on that card: replacing a legacy app with **1.5M Play Store installs** and **~200K monthly health checks**.
+
 ---
 
 ## 1. Project Overview
@@ -312,7 +314,8 @@ PHP 8.5 · Laravel 13 · Livewire 4 · Octane/FrankenPHP · PostgreSQL · Redis/
 | “I built the Android app” | You built the **backend `/v1` API** the Android app consumes (unless you also own that repo). |
 | “POLRI API integration” | **Designed**, not implemented. |
 | “AI wrote the product” | **Sole developer, AI-assisted.** You own decisions, specs, review, and production. |
-| Exact user/revenue numbers | Use documented ops numbers (requests/day, migrated rows, jurisdictions) unless you have a business-approved metric. |
+| Exact user/revenue numbers | Prefer ops numbers in this brief (~312k req/day, ~47M migrated rows, jurisdictions). GitHub already publishes **1.5M Play Store installs** (legacy) and **~200K monthly health checks** — cite the profile, do not invent extras. |
+| GitHub “Laravel + SQLite + 24 models” | That card lags the rewrite. Live stack is Laravel 13 / Postgres / ~42 models; use this brief. |
 | “100% test coverage” | Large, parallel Pest suite; do not invent a coverage percentage. |
 
 ---
@@ -328,4 +331,4 @@ Production platform for mandatory driving-license health checks in Indonesia (pa
 
 ---
 
-*Generated from the SimplePol repository (product spec v5, architecture, deployment notes, migration summaries, and git history) as a personal resume source. Not an official company brochure.*
+*Generated from the SimplePol repository (product spec v5, architecture, deployment notes, migration summaries, and git history) and the SimplePol section of github.com/aru-shiru/aru-shiru as of 16 August 2026. Not an official company brochure.*
