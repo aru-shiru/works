@@ -3,7 +3,7 @@
 **Role:** Flutter + API (Wakafyuk, with one mid) → **sole engineer** (Bantu Sesama) → **Tech Lead** (Wakaf Bangun Negeri)  
 **Product line:** Lamacca’s donation / wakaf **crowdfunding** platform, shipped three times with more complete stack each generation. Public names: **Wakafyuk**, **Bantu Sesama**, **Wakaf Bangun Negeri**.  
 **Period:** Nov 2020 – Jun 2024 (three repos; last WBN landing 11 Jun 2024).  
-**Lamacca public cards:** product **Crowdfunding** (Wakafyuk.id + Bantusesama.id) and work **Wakafyuk & Bantusesama (2023)**. Those years are **marketing**. Git is **2020–21** (Wakafyuk), **2022–24** (Bantu), **2023–24** (WBN). **WBN is not named** on `/products`. Not on GitHub Selected Projects. **No MAU** — do not invent.
+**Lamacca public cards:** product **Crowdfunding** (Wakafyuk.id + Bantusesama.id) and work **Wakafyuk & Bantusesama (2020 — 2024)**. Git is **2020–21** (Wakafyuk), **2022–24** (Bantu), **2023–24** (WBN). **WBN is not named** on `/products`. Not on GitHub Selected Projects. **No MAU** — do not invent.
 
 This document is a **source brief**, not a finished resume entry. Keep the **three generations**; do not collapse them into one SaaS tenant.
 
@@ -141,7 +141,7 @@ Flutter, Riverpod, Provider, go_router, React, Next.js, Material UI, Bootstrap, 
 | “I wrote all WBN Flutter” | You led Flutter/API; **zakikii** has the most Flutter file-touches; **Nana** heavy on API. |
 | PWA service worker | Donor **Next.js web**; don’t invent Workbox unless you find it. |
 | Donation GMV / user counts | **Unknown.** Cite three live brands, not money. |
-| Lamacca “2023” | Cards flatten all three. Use **2020–2024**. |
+| Lamacca “2023” | Old marketing flatten. Site now **2020 — 2024**. |
 | WBN Midtrans Basic auth in source | **Do not paste.** Treat as a sandbox leak to rotate, not a resume line. |
 
 ---
