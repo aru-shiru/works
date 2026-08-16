@@ -6,18 +6,21 @@ Shorter public cards live on [github.com/aru-shiru/aru-shiru](https://github.com
 
 ## Contents
 
-| Project | GitHub listing | Role | Period | Status |
-|---|---|---|---|---|
-| [SimplePol](simplepol.md) | SimplePol — Health Check Management System | Sole Full-Stack Engineer | Feb 2026 – present | Production |
-| [ADVLive](advlive.md) | Advansia — Agricultural Sales Force Automation *(Firestore predecessor; card does not yet cover this rewrite)* | Tech Lead | Oct 2025 – present (ID since 2021) | In progress |
-| [e-Partai / simPAN](e-partai.md) | e-Partai — Political Party Management System | Sole Full-Stack Engineer | 2021 – present (rewrite Aug 2025) | Production |
-| [SDS / Sekaiichi](sekaiichi.md) | SDS — Building Services Management Platform | Sole Full-Stack Engineer | Jul 2024 – present | Production |
-| [Pantau Relawan](pantau-relawan.md) | Pantau Relawan — Electoral Volunteer Management & Real-Time Vote Monitoring | Tech Lead | 2018–2019; rewrite 2023–present | Production |
-| [e-Watch LSI](e-watch-lsi.md) | e-Watch LSI — Political Fieldwork Monitoring Platform | Sole Full-Stack Engineer (client-facing) | Dec 2022 – present | Production |
-| [e-Hibah Polri](e-hibah-polri.md) | e-Hibah Polri — Grant Management System, Indonesian National Police | Tech Lead (v1); sole engineer (Flux rewrite) | Dec 2024 – present | v1 on Fly.io; Livewire rewrite Feb 2026 |
-| [SIMPEL](simpel.md) | *(not on GitHub Selected Projects)* Sistem Informasi Manajemen Perlengkapan Jalan | Tech Lead | Jun 2025 – present | Production (3 dinas on Fly.io) |
-| [Narrative Phone](narrative-phone.md) | Narrative Phone — Healthcare Video Calling App | Tech Lead (then sole native) | Aug 2023 – 2024 (first iteration) | Live; you left after v1 |
-| [Crowdfunding](crowdfunding.md) | *(Lamacca product; not on GitHub Selected)* Wakafyuk, Bantu Sesama, Wakaf Bangun Negeri | Flutter/API → sole → Tech Lead | 2020 – 2024 | Production (three foundations) |
+Local folders are the clone names under `~/code` (same as the GitHub repo name). Paths after `lamaccatech/` are apps inside that monorepo clone.
+
+| Project | Local folders | GitHub listing | Role | Period | Status |
+|---|---|---|---|---|---|
+| [SimplePol](simplepol.md) | `simpelpol`, `simpelpol-ocr` | SimplePol — Health Check Management System | Sole Full-Stack Engineer | Feb 2026 – present | Production |
+| [ADVLive](advlive.md) | `advlive`, `lamaccatech/apps/advansia` | Advansia — Agricultural Sales Force Automation *(Firestore predecessor; card does not yet cover this rewrite)* | Tech Lead | Oct 2025 – present (ID since 2021) | In progress |
+| [e-Partai / simPAN](e-partai.md) | `simpan`, `simpan_mobile`, `e-partai` | e-Partai — Political Party Management System | Sole Full-Stack Engineer | 2021 – present (rewrite Aug 2025) | Production |
+| [SDS / Sekaiichi](sekaiichi.md) | `lamaccatech/apps/sekaiichi` | SDS — Building Services Management Platform | Sole Full-Stack Engineer | Jul 2024 – present | Production |
+| [Pantau Relawan](pantau-relawan.md) | `pantau-relawan-monorepo` | Pantau Relawan — Electoral Volunteer Management & Real-Time Vote Monitoring | Tech Lead | 2018–2019; rewrite 2023–present | Production |
+| [e-Watch LSI](e-watch-lsi.md) | `lingkaran-survei-indonesia`; rewrite `lamaccatech/apps/lingkaran-survei-indonesia` | e-Watch LSI — Political Fieldwork Monitoring Platform | Sole Full-Stack Engineer (client-facing) | Dec 2022 – present | Production |
+| [e-Hibah Polri](e-hibah-polri.md) | `e-hibah-polri-archived`, `e-hibah-polri` | e-Hibah Polri — Grant Management System, Indonesian National Police | Tech Lead (v1); sole engineer (Flux rewrite) | Dec 2024 – present | v1 on Fly.io; Livewire rewrite Feb 2026 |
+| [SIMPEL](simpel.md) | `dishub-perlengkapan-jalan-monorepo`, `sulselprov-dishub-pj`, `paserkab-dishub-pj`, `samarindakota-dishub-pj` | *(not on GitHub Selected Projects)* Sistem Informasi Manajemen Perlengkapan Jalan | Tech Lead | Jun 2025 – present | Production (3 dinas on Fly.io) |
+| [Narrative Phone](narrative-phone.md) | `narrativephone-android`, `narrativephone-ios` | Narrative Phone — Healthcare Video Calling App | Tech Lead (then sole native) | Aug 2023 – 2024 (first iteration) | Live; you left after v1 |
+| [Crowdfunding](crowdfunding.md) | `wakafyuk`, `wakafyuk_mobile`, `berbagi-sesama`, `wakaf-bangun-negeri` | *(Lamacca product; not on GitHub Selected)* Wakafyuk, Bantu Sesama, Wakaf Bangun Negeri | Flutter/API → sole → Tech Lead | 2020 – 2024 | Production (three foundations) |
+| [Brainplus](brainplus.md) | `brainplus_mobile`, `brainplus` | *(Lamacca product; not on GitHub Selected)* Brainplus — edtech / psychometric | Sole Full-Stack Engineer | Aug 2019 – Jun 2020 | Shipped (first Flutter app) |
 
 **SimplePol** — Production health-check platform for Indonesian driving-license (SIM) applicants: identity verification, examination, payment, and official certificates across clinics, mobile units, and police jurisdictions.
 
@@ -39,11 +42,13 @@ Shorter public cards live on [github.com/aru-shiru/aru-shiru](https://github.com
 
 **Crowdfunding** — Three generations: Wakafyuk (you + Luthfi; Flutter/dashboard/API vs Next/MUI + LinkAja); Bantu Sesama (you alone, first Midtrans); Wakaf Bangun Negeri (you lead Bimo, Nadella, Nana, zakikii).
 
+**Brainplus** — First Flutter app (2019). Sole: psychometric/aptitude tests, Factory+Strategy scoring on Cloud Functions, React Bootstrap admin.
+
 ---
 
 ## What to brief next
 
-**Suggested next:** leftover **products** — **Brainplus**, then **Media Online / Journaltime**.
+**Suggested next:** leftover **product** — **Media Online / Journaltime**.
 
 Confirm you actually owned each card before writing a brief — these are Lamacca company pages, not a personal resume. Marketing years on `/work` can disagree with git (e.g. Advansia listed 2023; Indonesia product was live since 2021).
 
@@ -53,7 +58,7 @@ Confirm you actually owned each card before writing a brief — these are Lamacc
 |---|---|---|---|
 | 01 | e-Partai (deployed as SIMPAN / PAN) | Done | [e-partai.md](e-partai.md) |
 | 02 | Pantau Relawan | Done | [pantau-relawan.md](pantau-relawan.md) |
-| 03 | **Brainplus** (edtech / psychometric) | **Next (leftover product)** | — |
+| 03 | Brainplus (edtech / psychometric) | Done | [brainplus.md](brainplus.md) |
 | 04 | Crowdfunding (Wakafyuk.id, Bantusesama.id) | Done | [crowdfunding.md](crowdfunding.md) *(WBN too; not on this card)* |
 | 05 | Cleaning Service Management (Sekaiichi) | Done | [sekaiichi.md](sekaiichi.md) |
 | 06 | **Media Online** (Journaltime.co) | Needs brief | — |
@@ -98,7 +103,7 @@ Order is the site order. **Next** = no `*.md` yet. **Skip** = still on the compa
 
 ### Suggested briefing order
 
-1. **Brainplus** → **Media Online / Journaltime** — leftover products  
+1. **Media Online / Journaltime** — leftover product  
 2. Remaining `/work` rows still marked Needs brief (Kaltara cluster, e-KAHMI, e-Perdatin, PBAS, PAN congress, 2019 LSI situation room, Sulsel library geo-attendance, Prima Nusantara)  
 3. Then re-rank GitHub Selected Projects against the full set  
 
