@@ -16,6 +16,7 @@ Shorter public cards live on [github.com/aru-shiru/aru-shiru](https://github.com
 | [e-Watch LSI](e-watch-lsi.md) | e-Watch LSI — Political Fieldwork Monitoring Platform | Sole Full-Stack Engineer (client-facing) | Dec 2022 – present | Production |
 | [e-Hibah Polri](e-hibah-polri.md) | e-Hibah Polri — Grant Management System, Indonesian National Police | Tech Lead (v1); sole engineer (Flux rewrite) | Dec 2024 – present | v1 on Fly.io; Livewire rewrite Feb 2026 |
 | [SIMPEL](simpel.md) | *(not on GitHub Selected Projects)* Sistem Informasi Manajemen Perlengkapan Jalan | Tech Lead | Jun 2025 – present | Production (3 dinas on Fly.io) |
+| [Narrative Phone](narrative-phone.md) | Narrative Phone — Healthcare Video Calling App | Tech Lead (then sole native) | Aug 2023 – 2024 (first iteration) | Live; you left after v1 |
 
 **SimplePol** — Production health-check platform for Indonesian driving-license (SIM) applicants: identity verification, examination, payment, and official certificates across clinics, mobile units, and police jurisdictions.
 
@@ -33,13 +34,15 @@ Shorter public cards live on [github.com/aru-shiru/aru-shiru](https://github.com
 
 **SIMPEL** — Perlengkapan-jalan inventory for three Dinas Perhubungan (Prov. Sulsel, Kab. Paser, Kota Samarinda). Fork-per-dinas Nx template (Laravel/Inertia + Expo) on Fly.io; you led Bimo and Nana (git confirms).
 
+**Narrative Phone** — xCareField Zoom calling for ナラティブブック. You led Adji (iOS) and wiliarko (Android), then owned both repos after they resigned; first iteration only (git through Sep 2024).
+
 ---
 
 ## What to brief next
 
-**Suggested next:** [Narrative Phone](https://lamacca.com/work) — already on GitHub Selected Projects; no source brief here yet.
+**Suggested next:** leftover **products** — **Brainplus**, then **Crowdfunding / Wakafyuk & Bantusesama**, then **Media Online / Journaltime**.
 
-Then leftover **products** (repeatable platforms), then the rest of **work**. Confirm you actually owned each card before writing a brief — these are Lamacca company pages, not a personal resume. Marketing years on `/work` can disagree with git (e.g. Advansia listed 2023; Indonesia product was live since 2021).
+Confirm you actually owned each card before writing a brief — these are Lamacca company pages, not a personal resume. Marketing years on `/work` can disagree with git (e.g. Advansia listed 2023; Indonesia product was live since 2021).
 
 ### Products — [lamacca.com/products](https://lamacca.com/products)
 
@@ -67,7 +70,7 @@ Order is the site order. **Next** = no `*.md` yet. **Skip** = still on the compa
 | e-Watch — Campaign Field Monitoring (2024) | LSI Denny JA · Puspoll | Done — [e-watch-lsi.md](e-watch-lsi.md) *(Puspoll not in that brief)* |
 | Pantau Relawan — Multi-Party Campaign Deployments (2024) | PAN, Golkar, PKB, PKS, Demokrat, LSI | Done — [pantau-relawan.md](pantau-relawan.md) |
 | **Wakafyuk & Bantusesama — Donation Platforms (2023)** | Wakafyuk.id · Bantusesama.id | Needs brief *(same as product Crowdfunding)* |
-| **NarrativePhone — Secure Care Calling (2023)** | xCareField (Japan) | **Next (GitHub Selected)** |
+| NarrativePhone — Secure Care Calling (2023) | xCareField (Japan) | Done — [narrative-phone.md](narrative-phone.md) |
 | **PBAS Website & Career Information System (2023)** | Patra Badak Arun Solusi | Needs brief |
 | Patra Logistik Corporate Website (2023) | Pertamina Patra Logistik | **Skip** — WordPress; you did not contribute |
 | **ISBE Investment Monitoring Dashboard (2024)** | BPKH RI | Needs brief |
@@ -92,9 +95,8 @@ Order is the site order. **Next** = no `*.md` yet. **Skip** = still on the compa
 
 ### Suggested briefing order
 
-1. **Narrative Phone** — GitHub Selected, no brief  
-2. **Brainplus** → **Crowdfunding / Wakafyuk & Bantusesama** → **Media Online / Journaltime** — leftover products  
-3. Remaining `/work` rows still marked Needs brief (Kaltara cluster, e-KAHMI, e-Perdatin, PBAS, PAN congress, 2019 LSI situation room, Sulsel library geo-attendance, Prima Nusantara)  
-4. Then re-rank GitHub Selected Projects against the full set  
+1. **Brainplus** → **Crowdfunding / Wakafyuk & Bantusesama** → **Media Online / Journaltime** — leftover products  
+2. Remaining `/work` rows still marked Needs brief (Kaltara cluster, e-KAHMI, e-Perdatin, PBAS, PAN congress, 2019 LSI situation room, Sulsel library geo-attendance, Prima Nusantara)  
+3. Then re-rank GitHub Selected Projects against the full set  
 
 **Do not brief:** e-SIAP Korlantas (Figma, discontinued); Patra Logistik (WordPress, not your work).
