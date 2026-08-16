@@ -25,6 +25,7 @@ Local folders are the clone names under `~/code` (same as the GitHub repo name).
 | [ISBE](isbe.md) | `dashboard-bpkh` | *(Lamacca `/work`; not on GitHub Selected)* ISBE Investment Monitoring Dashboard · BPKH RI | Tech lead (1 junior) + hands-on Laravel | Dec 2021 – Jan 2022 | Shipped (internal; no URL in git) |
 | [SIMAS](simas.md) | `kaltara-manajemen-aset` | *(Lamacca `/work`; not on GitHub Selected)* SIMAS — Asset Management Information System · Setda Kaltara | Tech lead (Bimo, Nana, Nadella) + hands-on Laravel | Nov 2022 – Jan 2023 (Sail bump Nov 2024) | Shipped (web; no scanner APK in this clone) |
 | [Standard Price](standard-price.md) | `kaltara-ssh` | *(Lamacca `/work`; not on GitHub Selected)* Standard Price / SSH · BKAD Kaltara | Tech lead (Nadella, Bimo; Nana cameo) | Sep 2022 – Jan 2023 | Shipped |
+| [Asset Reconciliation](asset-reconciliation.md) | `kaltara-rekonsiliasi-aset` | *(Lamacca `/work`; not on GitHub Selected)* Asset Reconciliation · BKAD Kaltara | Tech lead (same four; then you solo) | Oct 2022 – May 2024 | Shipped |
 | [Brainplus](brainplus.md) | `brainplus_mobile`, `brainplus` | *(Lamacca product; not on GitHub Selected)* Brainplus — edtech / psychometric | Sole Full-Stack Engineer | Aug 2019 – Jun 2020 | Shipped (first Flutter app) |
 
 **SimplePol** — Production health-check platform for Indonesian driving-license (SIM) applicants: identity verification, examination, payment, and official certificates across clinics, mobile units, and police jurisdictions.
@@ -57,13 +58,15 @@ Local folders are the clone names under `~/code` (same as the GitHub repo name).
 
 **Standard Price** — BKAD Kaltara SSH catalog (Laravel 9 / Inertia). Same four names; Nana almost unused here. Git start **2022**, parallel with rekonsiliasi-aset. Site still **2023**.
 
+**Asset Reconciliation** — BKAD Kaltara KKR workbook (Laravel 9 / Inertia). Same team Oct 2022, then you alone through May 2024. **Not** wired to SIMAS. Git start **2022**. Site still **2023**.
+
 **Brainplus** — First Flutter app (2019). Sole: psychometric/aptitude tests, Factory+Strategy scoring on Cloud Functions, React Bootstrap admin.
 
 ---
 
 ## What to brief next
 
-**Suggested next:** remaining Kaltara — **Asset Reconciliation** (`kaltara-rekonsiliasi-aset`).
+**Suggested next:** remaining Kaltara — **Room Reservation** and **Banhub** (Badan Penghubung).
 
 Confirm you actually owned each card before writing a brief — these are Lamacca company pages, not a personal resume. **Do not edit lamacca.com until the remaining `/work` briefs are done.** Each brief’s **Git start year** (first commit of the original product) is the source of truth for that later repair.
 
@@ -100,7 +103,7 @@ Order is the site order. **Next** = no `*.md` yet. **Skip** = still on the compa
 | SIMPEL — Road Equipment Management (2025) | Site lists Dishub Samarinda · Paser only | Done — [simpel.md](simpel.md) *(also Sulsel; not on this card)* |
 | SIMAS — Asset Management Information System (site 2024) | Biro Umum Setda Kaltara | Done — [simas.md](simas.md) · **git start 2022** · web-only in this clone |
 | **Standard Price Information System (site 2023)** | BKAD Kaltara | Done — [standard-price.md](standard-price.md) · **git start 2022** · parallel with recon |
-| **Asset Reconciliation Information System (2023)** | BKAD Kaltara | Needs brief |
+| **Asset Reconciliation Information System (site 2023)** | BKAD Kaltara | Done — [asset-reconciliation.md](asset-reconciliation.md) · **git start 2022** · not a SIMAS import |
 | **Congress Registration & Attendance System (2024)** | PAN | Needs brief |
 | **e-KAHMI (2023)** | MN KAHMI | Needs brief |
 | **e-Perdatin Jaya (2024)** | Perdatin Jaya | Needs brief |
@@ -118,7 +121,7 @@ Order is the site order. **Next** = no `*.md` yet. **Skip** = still on the compa
 
 ### Suggested briefing order
 
-1. Remaining Kaltara — **asset recon**, room reservation, Banhub; then e-KAHMI, e-Perdatin, PAN congress, 2019 LSI situation room, Sulsel library geo-attendance, Prima Nusantara  
+1. Remaining Kaltara — **room reservation**, Banhub; then e-KAHMI, e-Perdatin, PAN congress, 2019 LSI situation room, Sulsel library geo-attendance, Prima Nusantara  
 2. Then re-rank GitHub Selected Projects against the full set  
 
 **Do not brief:** e-SIAP Korlantas (Figma, discontinued); Patra Logistik (WordPress, not your work).
