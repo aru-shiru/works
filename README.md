@@ -26,6 +26,7 @@ Local folders are the clone names under `~/code` (same as the GitHub repo name).
 | [SIMAS](simas.md) | `kaltara-manajemen-aset` | *(Lamacca `/work`; not on GitHub Selected)* SIMAS — Asset Management Information System · Setda Kaltara | Tech lead (Bimo, Nana, Nadella) + hands-on Laravel | Nov 2022 – Jan 2023 (Sail bump Nov 2024) | Shipped (web; no scanner APK in this clone) |
 | [Standard Price](standard-price.md) | `kaltara-ssh` | *(Lamacca `/work`; not on GitHub Selected)* Standard Price / SSH · BKAD Kaltara | Tech lead (Nadella, Bimo; Nana cameo) | Sep 2022 – Jan 2023 | Shipped |
 | [Asset Reconciliation](asset-reconciliation.md) | `kaltara-rekonsiliasi-aset` | *(Lamacca `/work`; not on GitHub Selected)* Asset Reconciliation · BKAD Kaltara | Tech lead (same four; then you solo) | Oct 2022 – May 2024 | Shipped |
+| [Banhub / SIAP](banhub.md) | `kaltara-banhub` | *(Lamacca `/work` ×2; not on GitHub Selected)* Room Reservation + Banhub Activity · Badan Penghubung Kaltara | Tech lead (same four) | May 2023 – Nov 2023 (storage Nov 2025) | Shipped |
 | [Brainplus](brainplus.md) | `brainplus_mobile`, `brainplus` | *(Lamacca product; not on GitHub Selected)* Brainplus — edtech / psychometric | Sole Full-Stack Engineer | Aug 2019 – Jun 2020 | Shipped (first Flutter app) |
 
 **SimplePol** — Production health-check platform for Indonesian driving-license (SIM) applicants: identity verification, examination, payment, and official certificates across clinics, mobile units, and police jurisdictions.
@@ -60,13 +61,15 @@ Local folders are the clone names under `~/code` (same as the GitHub repo name).
 
 **Asset Reconciliation** — BKAD Kaltara KKR workbook (Laravel 9 / Inertia). Same team Oct 2022, then you alone through May 2024. **Not** wired to SIMAS. Git start **2022**. Site still **2023**.
 
+**Banhub / SIAP** — Badan Penghubung Kaltara (Laravel 10 / Inertia **React**). One repo covering two `/work` cards: guesthouse booking + BBM/kendaraan/kegiatan. Git start **2023** (matches badges).
+
 **Brainplus** — First Flutter app (2019). Sole: psychometric/aptitude tests, Factory+Strategy scoring on Cloud Functions, React Bootstrap admin.
 
 ---
 
 ## What to brief next
 
-**Suggested next:** remaining Kaltara — **Room Reservation** and **Banhub** (Badan Penghubung).
+**Suggested next:** remaining `/work` — **e-KAHMI**, e-Perdatin, PAN congress, 2019 LSI situation room, Sulsel library geo-attendance, Prima Nusantara.
 
 Confirm you actually owned each card before writing a brief — these are Lamacca company pages, not a personal resume. **Do not edit lamacca.com until the remaining `/work` briefs are done.** Each brief’s **Git start year** (first commit of the original product) is the source of truth for that later repair.
 
@@ -108,8 +111,8 @@ Order is the site order. **Next** = no `*.md` yet. **Skip** = still on the compa
 | **e-KAHMI (2023)** | MN KAHMI | Needs brief |
 | **e-Perdatin Jaya (2024)** | Perdatin Jaya | Needs brief |
 | **Property & Facility Management System (2022)** | PT Prima Nusantara Services | Needs brief |
-| **Room Reservation System (2023)** | Badan Penghubung Kaltara | Needs brief |
-| **Banhub Activity Monitoring System (2023)** | Badan Penghubung Kaltara | Needs brief |
+| **Room Reservation System (2023)** | Badan Penghubung Kaltara | Done — [banhub.md](banhub.md) · **git start 2023** · same clone as Banhub |
+| **Banhub Activity Monitoring System (2023)** | Badan Penghubung Kaltara | Done — [banhub.md](banhub.md) · **git start 2023** · one repo with Room Reservation |
 | **Presidential Election Situation Room Dashboard (2019)** | LSI Denny JA | Needs brief |
 | **Geo-Location Attendance System (2022)** | Dinas Perpustakaan dan Kearsipan Sulsel | Needs brief |
 
@@ -121,7 +124,7 @@ Order is the site order. **Next** = no `*.md` yet. **Skip** = still on the compa
 
 ### Suggested briefing order
 
-1. Remaining Kaltara — **room reservation**, Banhub; then e-KAHMI, e-Perdatin, PAN congress, 2019 LSI situation room, Sulsel library geo-attendance, Prima Nusantara  
+1. Remaining `/work` — e-KAHMI, e-Perdatin, PAN congress, 2019 LSI situation room, Sulsel library geo-attendance, Prima Nusantara  
 2. Then re-rank GitHub Selected Projects against the full set  
 
 **Do not brief:** e-SIAP Korlantas (Figma, discontinued); Patra Logistik (WordPress, not your work).
