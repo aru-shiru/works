@@ -15,6 +15,7 @@ Shorter public cards live on [github.com/aru-shiru/aru-shiru](https://github.com
 | [Pantau Relawan](pantau-relawan.md) | Pantau Relawan — Electoral Volunteer Management & Real-Time Vote Monitoring | Tech Lead | 2018–2019; rewrite 2023–present | Production |
 | [e-Watch LSI](e-watch-lsi.md) | e-Watch LSI — Political Fieldwork Monitoring Platform | Sole Full-Stack Engineer (client-facing) | Dec 2022 – present | Production |
 | [e-Hibah Polri](e-hibah-polri.md) | e-Hibah Polri — Grant Management System, Indonesian National Police | Tech Lead (v1); sole engineer (Flux rewrite) | Dec 2024 – present | v1 on Fly.io; Livewire rewrite Feb 2026 |
+| [SIMPEL](simpel.md) | *(not on GitHub Selected Projects)* Sistem Informasi Manajemen Perlengkapan Jalan | Tech Lead | Jun 2025 – present | Production (3 dinas on Fly.io) |
 
 **SimplePol** — Production health-check platform for Indonesian driving-license (SIM) applicants: identity verification, examination, payment, and official certificates across clinics, mobile units, and police jurisdictions.
 
@@ -29,3 +30,5 @@ Shorter public cards live on [github.com/aru-shiru/aru-shiru](https://github.com
 **e-Watch LSI** — Lingkaran Survei Indonesia (Denny JA) field dropping + persuasi monitor. Flutter + Firebase from 2022; HQ dashboard Vue 3 then rewritten with Nuxt UI Pro (mobile stayed Flutter).
 
 **e-Hibah Polri** — Polri grant lifecycle (Satker → Polda → Mabes). You led Bimo and Nana on Laravel 11 + Inertia + React (not Vue); then rewrote it alone with Flux UI Pro + Livewire 4 (Claude Code, Feb 2026).
+
+**SIMPEL** — Perlengkapan-jalan inventory for three Dinas Perhubungan (Prov. Sulsel, Kab. Paser, Kota Samarinda). Fork-per-dinas Nx template (Laravel/Inertia + Expo) on Fly.io; you led Bimo and Nana (git confirms).
