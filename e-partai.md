@@ -10,7 +10,7 @@ This document is a **source brief**, not a finished resume entry. Sections 1–3
 
 Public GitHub listing: **e-Partai — Political Party Management System** on [aru-shiru/aru-shiru](https://github.com/aru-shiru/aru-shiru). Public metrics on that card: **1.6M** registered members and volunteers · **50K+** Play Store installs · **~1–2K** daily active users. The migrator comments **~1.45M** simPAN anggota as the Firestore batch size — cite GitHub for the round number; do not invent extras.
 
-The GitHub card says the rewrite ingested **simPAN + Pantau Relawan**. That is accurate in this repo even if interviewers only say “e-Partai / simPAN.”
+The GitHub card says the rewrite ingested **simPAN + Pantau Relawan**. That is accurate in this repo even if interviewers only say “e-Partai / simPAN.” PAN used the **Pantau Relawan volunteer system for thousands of candidates**; that scale is *this* embedding, not Lamacca’s ~20+ white-label/basic Pantau Relawan tenants. See `pantau-relawan.md`.
 
 ---
 
@@ -207,7 +207,7 @@ Peak rewrite months: Dec 2025 – Feb 2026.
 - National party membership **on production Firebase for years**, then a **cloud-agnostic** rewrite **without a team**.  
 - **Two Firebase products** (simPAN + Pantau Relawan) → one Postgres model + SuperTokens, with scrypt import so users did not all reset passwords.  
 - Storage and deploy are **S3 or GCS / AWS or GCP** — the duplication doc is the business pitch to the next party.  
-- GitHub-published scale (cite the profile): **1.6M** members/volunteers, **50K+** installs, **~1–2K** DAU.  
+- GitHub-published scale (cite the profile): **1.6M** members/volunteers, **50K+** installs, **~1–2K** DAU. Volunteer graph includes **Pantau Relawan for thousands of PAN candidates** (not the ~20+ Lamacca SaaS tenants).  
 - Functional core (`neverthrow`) and shared Zod — interview sticky, verified in `docs/TECHNICAL_ARCHITECTURE.md`.
 
 ---
