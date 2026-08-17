@@ -29,6 +29,7 @@ Local folders are the clone names under `~/code` (same as the GitHub repo name).
 | [Banhub / SIAP](banhub.md) | `kaltara-banhub` | *(Lamacca `/work` ×2; not on GitHub Selected)* Room Reservation + Banhub Activity · Badan Penghubung Kaltara | Tech lead (same four) | May 2023 – Nov 2023 (storage Nov 2025) | Shipped |
 | [Geo Attendance](geo-attendance.md) | `absensi-pegawai` | *(Lamacca `/work`; not on GitHub Selected)* Geo-Location Attendance · Dispusipda Sulsel | Sole full-stack | Nov 2021 – Feb 2022 (dialog Jan 2024) | Shipped |
 | [Prima Nusantara / ePROFMS](prima-nusantara.md) | `manajemen-gedung-dashboard`, `manajemen-gedung-mobile`, `eprofms-dashboard` | *(Lamacca `/work`; not on GitHub Selected)* Property & Facility · PT Prima Nusantara | Client + rescue rewrite (Nana, Bimo, Nadella, Zaki) | 2022 vendor; rewrite 2023–2024 | Shipped (web rewrite; Flutter kept) |
+| [e-KAHMI](e-kahmi.md) | `e-kahmi`, `lamaccatech/apps/kahmi` | *(Lamacca `/work`; not on GitHub Selected)* e-KAHMI · MN KAHMI | Tech lead (Bimo, Nana; Nadella cameo) + sole Flutter | May 2024 – Dec 2025 | Shipped (dashboard/functions in monorepo; Flutter stays) |
 | [Brainplus](brainplus.md) | `brainplus_mobile`, `brainplus` | *(Lamacca product; not on GitHub Selected)* Brainplus — edtech / psychometric | Sole Full-Stack Engineer | Aug 2019 – Jun 2020 | Shipped (first Flutter app) |
 
 **SimplePol** — Production health-check platform for Indonesian driving-license (SIM) applicants: identity verification, examination, payment, and official certificates across clinics, mobile units, and police jurisdictions.
@@ -69,13 +70,15 @@ Local folders are the clone names under `~/code` (same as the GitHub repo name).
 
 **Prima Nusantara / ePROFMS** — Prinus building FM. Vendor v1 2022 (you: 0 dashboard commits); Laravel 10 / React rewrite 2023. Flutter kept. Git start **2022** (matches badge).
 
+**e-KAHMI** — MN KAHMI (Nuxt + Flutter). Bimo/Nana on original dashboard; you sole mobile then moved dashboard/functions into lamaccatech. Git start **2024**. Site still **2023**.
+
 **Brainplus** — First Flutter app (2019). Sole: psychometric/aptitude tests, Factory+Strategy scoring on Cloud Functions, React Bootstrap admin.
 
 ---
 
 ## What to brief next
 
-**Suggested next:** remaining `/work` — **e-KAHMI**, e-Perdatin, PAN congress, 2019 LSI situation room.
+**Suggested next:** remaining `/work` — **e-Perdatin**, PAN congress, 2019 LSI situation room.
 
 Confirm you actually owned each card before writing a brief — these are Lamacca company pages, not a personal resume. **Do not edit lamacca.com until the remaining `/work` briefs are done.** Each brief’s **Git start year** (first commit of the original product) is the source of truth for that later repair.
 
@@ -114,7 +117,7 @@ Order is the site order. **Next** = no `*.md` yet. **Skip** = still on the compa
 | **Standard Price Information System (site 2023)** | BKAD Kaltara | Done — [standard-price.md](standard-price.md) · **git start 2022** · parallel with recon |
 | **Asset Reconciliation Information System (site 2023)** | BKAD Kaltara | Done — [asset-reconciliation.md](asset-reconciliation.md) · **git start 2022** · not a SIMAS import |
 | **Congress Registration & Attendance System (2024)** | PAN | Needs brief |
-| **e-KAHMI (2023)** | MN KAHMI | Needs brief |
+| **e-KAHMI (site 2023)** | MN KAHMI | Done — [e-kahmi.md](e-kahmi.md) · **git start 2024** · dashboard/functions in lamaccatech; Flutter stays |
 | **e-Perdatin Jaya (2024)** | Perdatin Jaya | Needs brief |
 | **Property & Facility Management System (2022)** | PT Prima Nusantara Services | Done — [prima-nusantara.md](prima-nusantara.md) · **git start 2022** · vendor v1; you rewrote dashboard 2023 |
 | **Room Reservation System (2023)** | Badan Penghubung Kaltara | Done — [banhub.md](banhub.md) · **git start 2023** · same clone as Banhub |
@@ -130,7 +133,7 @@ Order is the site order. **Next** = no `*.md` yet. **Skip** = still on the compa
 
 ### Suggested briefing order
 
-1. Remaining `/work` — e-KAHMI, e-Perdatin, PAN congress, 2019 LSI situation room  
+1. Remaining `/work` — e-Perdatin, PAN congress, 2019 LSI situation room  
 2. Then re-rank GitHub Selected Projects against the full set  
 
 **Do not brief:** e-SIAP Korlantas (Figma, discontinued); Patra Logistik (WordPress, not your work).
