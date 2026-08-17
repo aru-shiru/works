@@ -61,7 +61,7 @@ Tenants are Firestore **`applications`** (`modules: dropping | persuasi`, `regio
 |---|---|
 | `e-watch-dashboard` | Nuxt UI Pro, VueFire, Pinia, Unovis (daily bars, questionnaire donuts, region cards), Data Masuk, Statistik, users |
 | `functions-users` / `functions-projects` / `functions-chore` | Same login/create-user, dropping/persuasi reports, daily reset — Node 20, firebase-functions 6 |
-| `presidential-election` | Separate Nuxt + **Mapbox** fullscreen stub — **unfinished**, no election data. This is why GitHub mentions Mapbox; **e-Watch dashboard itself still has no interactive map** |
+| `presidential-election` | Separate Nuxt + **Mapbox** fullscreen stub — **unfinished**, no election data. This is why GitHub mentions Mapbox; **e-Watch dashboard itself still has no interactive map**. **Not** the 2019 LSI situation room ([lsi-situation-room.md](lsi-situation-room.md)) |
 | `scripts` | Seed, backfill reports, CSV |
 
 **151 commits, you only.** Latest notable: `chore: update nuxt ui` **19 Nov 2025**.
@@ -144,7 +144,7 @@ Vue 3, Nuxt 3, Nuxt UI Pro, Flutter, Riverpod, SQLite, Firebase, Puppeteer, Shar
 | Claim | Safer |
 |---|---|
 | ~500K / ~100 users | GitHub card only |
-| “Mapbox on e-Watch” | Unfinished **presidential-election** app; field pipeline is **Google Static Maps** |
+| “Mapbox on e-Watch” | 2024 **unfinished stub** and/or the **2019** situation room ([lsi-situation-room.md](lsi-situation-room.md)); field pipeline is **Google Static Maps** |
 | “I rewrote the mobile app” | **Dashboard (+ functions packaging) only** |
 | Original was Nuxt | Original HQ is **Vue 3 + Bootstrap SPA** |
 | Timezone trivia | Don’t lead with `Asia/Tokyo` on the daily reset |

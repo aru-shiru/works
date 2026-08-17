@@ -27,7 +27,7 @@ Pantau Relawan is a multi-tenant campaign platform: volunteer trees, supporter (
 
 ### 1.2 Why it exists (two eras)
 
-**2018–2019 — eight campaigns, one VPS (frozen facts).** Laravel dashboard, React Native, VPS, **8** Pemilu 2019 candidates. You were tech lead with **two other engineers who are not the 2023 five**. Code not in this tree. No names, no %-split, no further invention.
+**2018–2019 — eight campaigns, one VPS (frozen facts).** Laravel dashboard, React Native, VPS, **8** Pemilu 2019 candidates. You were tech lead with **two other engineers who are not the 2023 five**. Code not in this tree. No names, no %-split, no further invention. A **separate** LSI Pilpres 2019 situation-room SPA (Vue + Mapbox, API on `pantaurelawan.com`) was also that era — GitLab lost; see [lsi-situation-room.md](lsi-situation-room.md).
 
 **2023 rewrite — many candidates, one Firebase project.** Goal: onboard the next candidate without a new Laravel deploy. **One** Firestore (`pantau-relawan-by-lamacca`), documents scoped by `id_kandidat`, custom Auth claims (`candidate`, `admin`, `superadmin`). Surfaces fork by **plan**: dedicated branded Flutter `applicationId`s for premium candidates; a shared **Pantau Relawan Basic** app that binds the candidate after login.
 

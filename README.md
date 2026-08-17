@@ -17,6 +17,7 @@ Local folders are the clone names under `~/code` (same as the GitHub repo name).
 | [SDS / Sekaiichi](sekaiichi.md) | `lamaccatech/apps/sekaiichi` | SDS — Building Services Management Platform | Sole Full-Stack Engineer | Jul 2024 – present | Production |
 | [Pantau Relawan](pantau-relawan.md) | `pantau-relawan-monorepo` | Pantau Relawan — Electoral Volunteer Management & Real-Time Vote Monitoring | Tech Lead | 2018–2019; rewrite 2023–present | Production |
 | [e-Watch LSI](e-watch-lsi.md) | `lingkaran-survei-indonesia`; rewrite `lamaccatech/apps/lingkaran-survei-indonesia` | e-Watch LSI — Political Fieldwork Monitoring Platform | Sole Full-Stack Engineer (client-facing) | Dec 2022 – present | Production |
+| [LSI Situation Room](lsi-situation-room.md) | *(none — GitLab lost)*; dummy `presidential-election-20bd7.web.app` | *(Lamacca `/work`; not on GitHub Selected)* Presidential Election Situation Room · LSI Denny JA | 2018–19 Pantau Relawan team (split unknown) | ~2018–2019 | Dummy Hosting still up; Mapbox key expired; **no git** |
 | [e-Hibah Polri](e-hibah-polri.md) | `e-hibah-polri-archived`, `e-hibah-polri` | e-Hibah Polri — Grant Management System, Indonesian National Police | Tech Lead (v1); sole engineer (Flux rewrite) | Dec 2024 – present | v1 on Fly.io; Livewire rewrite Feb 2026 |
 | [SIMPEL](simpel.md) | `dishub-perlengkapan-jalan-monorepo`, `sulselprov-dishub-pj`, `paserkab-dishub-pj`, `samarindakota-dishub-pj` | *(not on GitHub Selected Projects)* Sistem Informasi Manajemen Perlengkapan Jalan | Tech Lead | Jun 2025 – present | Production (3 dinas on Fly.io) |
 | [Narrative Phone](narrative-phone.md) | `narrativephone-android`, `narrativephone-ios` | Narrative Phone — Healthcare Video Calling App | Tech Lead (then sole native) | Aug 2023 – 2024 (first iteration) | Live; you left after v1 |
@@ -47,6 +48,8 @@ Local folders are the clone names under `~/code` (same as the GitHub repo name).
 **Pantau Relawan** — Multi-candidate volunteer and real-count SaaS. Laravel + React Native on a VPS for 8 Pemilu 2019 candidates; 2023 Firebase rewrite with white-label Flutter, Vue admin, and React/MUI PWA (~20+ candidates on this product; PAN/e-Partai used the same system at party scale).
 
 **e-Watch LSI** — Lingkaran Survei Indonesia (Denny JA) field dropping + persuasi monitor. Flutter + Firebase from 2022; HQ dashboard Vue 3 then rewritten with Nuxt UI Pro (mobile stayed Flutter).
+
+**LSI Situation Room** — Pilpres 2019 HQ map for LSI (Vue 2 + Mapbox + medsos/koran/canvassing). Early Pantau Relawan GitLab, **lost**. Dummy Firebase Hosting still up; map key expired. **Not** the 2024 Nuxt stub in lamaccatech. **No git start year.**
 
 **e-Hibah Polri** — Polri grant lifecycle (Satker → Polda → Mabes). You led Bimo and Nana on Laravel 11 + Inertia + React (not Vue); then rewrote it alone with Flux UI Pro + Livewire 4 (Claude Code, Feb 2026).
 
@@ -86,9 +89,9 @@ Local folders are the clone names under `~/code` (same as the GitHub repo name).
 
 ## What to brief next
 
-**Suggested next:** remaining `/work` — **2019 LSI situation room**.
+**Suggested next:** re-rank GitHub Selected Projects against the full set. All remaining `/work` briefs are done (skips unchanged).
 
-Confirm you actually owned each card before writing a brief — these are Lamacca company pages, not a personal resume. **Do not edit lamacca.com until the remaining `/work` briefs are done.** Each brief’s **Git start year** (first commit of the original product) is the source of truth for that later repair.
+Confirm you actually owned each card before writing a brief — these are Lamacca company pages, not a personal resume. **`/work` briefs are complete** (e-SIAP and Patra Logistik remain skipped). Repair lamacca.com years from each brief’s **git start** where it exists; the situation room has **no clone**.
 
 ### Products — [lamacca.com/products](https://lamacca.com/products)
 
@@ -130,7 +133,7 @@ Order is the site order. **Next** = no `*.md` yet. **Skip** = still on the compa
 | **Property & Facility Management System (2022)** | PT Prima Nusantara Services | Done — [prima-nusantara.md](prima-nusantara.md) · **git start 2022** · vendor v1; you rewrote dashboard 2023 |
 | **Room Reservation System (2023)** | Badan Penghubung Kaltara | Done — [banhub.md](banhub.md) · **git start 2023** · same clone as Banhub |
 | **Banhub Activity Monitoring System (2023)** | Badan Penghubung Kaltara | Done — [banhub.md](banhub.md) · **git start 2023** · one repo with Room Reservation |
-| **Presidential Election Situation Room Dashboard (2019)** | LSI Denny JA | Needs brief |
+| **Presidential Election Situation Room Dashboard (2019)** | LSI Denny JA | Done — [lsi-situation-room.md](lsi-situation-room.md) · **no git** · dummy still at `presidential-election-20bd7.web.app` · not the 2024 Nuxt stub |
 | **Geo-Location Attendance System (site 2022)** | Dinas Perpustakaan dan Kearsipan Sulsel | Done — [geo-attendance.md](geo-attendance.md) · **git start 2021** · solo · fence on device |
 
 ### Also in this repo / GitHub, not on Lamacca pages
@@ -141,7 +144,7 @@ Order is the site order. **Next** = no `*.md` yet. **Skip** = still on the compa
 
 ### Suggested briefing order
 
-1. Remaining `/work` — **2019 LSI situation room**  
-2. Then re-rank GitHub Selected Projects against the full set  
+1. Re-rank GitHub Selected Projects against the full set  
+2. Then repair lamacca.com years from each brief’s **git start** (situation room has **none**)
 
 **Do not brief:** e-SIAP Korlantas (Figma, discontinued); Patra Logistik (WordPress, not your work).
