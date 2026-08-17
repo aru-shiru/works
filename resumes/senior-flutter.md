@@ -6,7 +6,7 @@ https://github.com/aru-shiru · https://www.linkedin.com/in/arushiru/ · lamacca
 
 ## Summary
 
-Senior Flutter engineer since 2019. Sole Flutter owner on white-label campaign apps, a political fieldwork monitor, a national alumni membership app, and three donation products. Own Play Store releases, Firebase custom-token auth, offline SQLite queues, and the APIs those apps call. Technical lead who still writes the Dart. Also Expo, React Native, Swift, and Kotlin.
+Technical lead of **2–5 engineers** who still owns Flutter. Dart since 2019: white-label campaign apps, a political fieldwork monitor, a national alumni membership app, and three donation products. Play Store releases, Firebase custom-token auth, offline SQLite queues, and the APIs those apps call. Customer success maps field process with the client; I lead the engineers and write the Dart. Also Expo, React Native, Swift, and Kotlin — Expo when a TypeScript monorepo should share one language.
 
 ## Skills
 
@@ -19,27 +19,30 @@ Senior Flutter engineer since 2019. Sole Flutter owner on white-label campaign a
 **Technical Lead and Senior Flutter Engineer**
 PT Lamacca Kreatif Solusi — Jakarta, Indonesia | 2018 – Present
 
-**Pantau Relawan — white-label campaign apps | Tech lead; sole Flutter | 2023 – Present**
-- Shared mobile package: Riverpod, go_router, SQLite draft queue. Branded APKs per paying candidate plus one basic app that selects the tenant after login.
+**Technical lead of 2–5 engineers** on team mobile/web products. Customer success and the client map the field workflow; I split Dart/API work and review the rest.
+
+**Pantau Relawan — white-label campaign apps | Tech lead (5 engineers); Flutter | 2023 – Present**
+- Led five engineers on the Firebase rewrite. I owned the shared Flutter package (Riverpod, go_router, SQLite draft queue): branded APKs per paying candidate plus one basic app that selects the tenant after login.
 - Downline volunteer trees, supporter capture, surveys, polling-station vote counts, leaderboard. 20+ candidate tenants. Same volunteer model later used in e-Partai for PAN.
 
-**e-Watch — LSI Denny JA | Sole engineer | 2022 – Present**
+**e-Watch — LSI Denny JA | 2022 – Present**
 - Flutter canvassing and survey app: GPS, photo, username login via Cloud Functions custom tokens, SQLite drafts that upload when back online.
 - One APK, many tenants. ~500K field submissions.
 
-**e-KAHMI — national alumni organization | Sole Flutter | 2024 – 2025**
-- Member app: digital membership card, QR, news, events, self-registration. Led web engineers on Nuxt; owned all Dart.
+**e-KAHMI — national alumni organization | Flutter; led 2 web engineers | 2024 – 2025**
+- Member app: digital membership card, QR, news, events, self-registration. Led two engineers on Nuxt; wrote all Dart.
 
-**simPAN — Partai Amanat Nasional | Sole engineer | 2021 – Present**
-- Flutter member app (digital membership card, profile) on Firebase. 50K+ Play installs. 2025 platform rewrite moved the listing to Expo on the same app ID.
+**simPAN — Partai Amanat Nasional | 2021 – Present**
+- Flutter member app (digital membership card, profile) on Firebase. 50K+ Play installs. ~1.4M members behind it (incomplete voter-roll imports were not migrated).
+- 2025 rewrite lives in a TypeScript monorepo (Nest, web, mobile). Member app moved to Expo on the same Play listing so UI and API share types and libraries — reuse, not a Flutter retirement.
 
 **Donation apps — Wakafyuk, Bantu Sesama, Wakaf Bangun Negeri | 2020 – 2024**
-- Donor apps: campaigns, Google login, receipts. Sole Flutter on Wakafyuk and Bantu Sesama (Midtrans). Tech lead on Wakaf Bangun Negeri; kept Flutter and the payment API.
+- Donor apps: campaigns, Google login, receipts. Wrote Flutter for Wakafyuk and Bantu Sesama (Midtrans). **Tech lead of four engineers** on Wakaf Bangun Negeri; kept Flutter and the payment API.
 
-**Brainplus | Sole engineer | 2019 – 2020**
+**Brainplus | 2019 – 2020**
 - First production Flutter app: career aptitude tests (MBTI, Holland codes, Raven); Cloud Functions scoring; in-app purchases.
 
-**Additional projects:** Geo-fenced staff attendance for a provincial library and archives office. Facility-management companion app for Prima Nusantara. News reader (Journaltime, 2020). Field apps for SDS and Advansia (Expo). Narrative Phone for xCareField Japan (Swift, Kotlin, Zoom / CallKit).
+**Additional projects:** Geo-fenced staff attendance for a provincial library and archives office. Facility-management companion app for Prima Nusantara. Field apps for SDS and Advansia (Expo; Advansia with two engineers). Led two native engineers on Narrative Phone for xCareField Japan (Swift, Kotlin, Zoom / CallKit), then finished both platforms.
 
 **Co-Founder**
 Belliki — Indonesia | 2016 – 2018

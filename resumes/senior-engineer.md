@@ -6,7 +6,7 @@ https://github.com/aru-shiru · https://www.linkedin.com/in/arushiru/ · lamacca
 
 ## Summary
 
-Senior engineer and technical lead with 9+ years shipping production software across mobile, web, backend, and infrastructure. Built a national party platform used by 1.6M members and volunteers, and a health-check system that replaced a legacy app with 1.5M Play Store installs. Lead small teams and still write the critical path: PostgreSQL schemas, auth migrations, Terraform, offline field apps. Government, police, agribusiness, healthcare, and Japan.
+Senior technical lead with 9+ years shipping production software. Lead teams of **2–5 engineers** (architecture, reviews, delivery) while still writing the hard path. Built a national party platform of ~1.4M members, and a health-check system that replaced a legacy app with 1.5M Play Store installs. Customer success and clients map the workflow with me; I split implementation between the team and my own code. PostgreSQL, auth migrations, Terraform, offline field apps. Government, police, agribusiness, healthcare, and Japan.
 
 ## Skills
 
@@ -22,31 +22,31 @@ Senior engineer and technical lead with 9+ years shipping production software ac
 **Technical Lead and Senior Software Engineer**
 PT Lamacca Kreatif Solusi — Jakarta, Indonesia | 2018 – Present
 
-Software consultancy. Architecture, code review, and delivery on client systems.
+Software consultancy. **Technical lead of 2–5 engineers** on team products (split work, reviews, architecture). On accounts without a squad, customer success and the client map the workflow and I implement. Recurring team on Pantau Relawan, e-Hibah, ADVLive, SIMPEL, North Kalimantan systems, and Wakaf Bangun Negeri.
 
-**e-Partai / simPAN — Partai Amanat Nasional | Sole engineer | 2021 – Present**
-- National membership platform: members, digital membership cards, party hierarchy, volunteers. 1.6M members and volunteers; 50K+ Play Store installs.
-- Replaced Firestore and Cloud Functions with NestJS, PostgreSQL, SuperTokens, and S3/GCS so the same API deploys on AWS or GCP (Terraform).
-- Migrated two Firebase products, including ~1.45M member rows and password hashes, without a mass password reset.
+**e-Partai / simPAN — Partai Amanat Nasional | 2021 – Present**
+- National membership platform: members, digital membership cards, party hierarchy, volunteers. Customer success and PAN operators defined the workflows; I implemented the system. ~1.4M member records in production; 50K+ Play Store installs.
+- Replaced Firestore and Cloud Functions with NestJS, PostgreSQL, SuperTokens, and S3/GCS so the same API deploys on AWS or GCP (Terraform). Member app moved to Expo in that monorepo so mobile could share TypeScript with web and API.
+- Migrated two Firebase products. Pre-cutover table was ~1.8M rows; ~400K were incomplete voter-roll imports (name and membership number only, not members) and were dropped. ~1.4M real members moved, including password hashes, without a mass reset.
 
-**SimplePol — driving-license health checks | Sole engineer | 2026 – Present**
-- Laravel / PostgreSQL platform for identity, exam, payment, and official medical certificates across clinics, mobile units, and police districts. Replaces a legacy app with 1.5M Play installs (~200K monthly checks).
-- National ID number as the identity key, ID-card OCR (Gemini via a Go proxy), clinician REST API, Octane on Laravel Cloud + RDS/S3. Migrated ~47M historical rows.
+**SimplePol — driving-license health checks | 2026 – Present**
+- Laravel / PostgreSQL platform for identity, exam, payment, and official medical certificates across clinics, mobile units, and police districts. Replaces a legacy app with 1.5M Play installs (~200K monthly checks). CS and clinic/police operators on process; I own engineering.
+- National ID number as the identity key, ID-card OCR (Gemini via a Go proxy), clinician REST API, Octane on Laravel Cloud + RDS/S3. Migrated ~47M historical rows. Pest tests; k6 load tests on staging.
 
-**Pantau Relawan — campaign volunteer platform | Tech lead | 2018–2019; 2023 – Present**
-- 2018–19: Laravel + React Native for 8 candidates in Indonesia’s 2019 general election.
-- 2023 rewrite: Firebase multi-tenant SaaS. Led five engineers; owned Flutter (branded apps plus a shared basic app). 20+ candidate tenants; volunteer model later used inside e-Partai for PAN.
+**Pantau Relawan — campaign volunteer platform | Tech lead (5 engineers) | 2018–2019; 2023 – Present**
+- Led five engineers on the 2023 Firebase SaaS rewrite (architecture, Functions base, reviews). I owned Flutter (branded apps plus a shared basic app). 20+ candidate tenants; volunteer model later used inside e-Partai for PAN.
+- 2018–19: led two engineers; Laravel + React Native for 8 candidates in Indonesia’s 2019 general election.
 
-**e-Hibah — Indonesian National Police grants | Tech lead | 2024 – Present**
-- Grant workflow from a local unit through provincial review to national headquarters. Led two engineers on Laravel + Inertia + React; later rewrote the UI in Livewire. Fly.io.
+**e-Hibah — Indonesian National Police grants | Tech lead (2 engineers) | 2024 – Present**
+- Led two engineers on Laravel + Inertia + React (grant workflow from local unit through provincial review to headquarters). Later rewrote the UI in Livewire. Fly.io.
 
-**SDS — PT Sekaiichi Dwiputra Service | Sole engineer | 2024 – Present**
+**SDS — PT Sekaiichi Dwiputra Service | 2024 – Present**
 - Building-services ops: GPS and fingerprint attendance, photo-proven cleaning, QR inventory, hiring through fixed-term contracts. Nuxt, Expo, Postgres, Fly.io fingerprint bridge.
 
-**ADVLive — Advansia Indonesia and Malaysia | Tech lead | 2021 – Present**
-- Field sales app (visits, invoices, stock, geofenced attendance). Leading two engineers on a Nest + Nuxt + Expo + Postgres rewrite for both countries. 50K+ sales records; ~100K field activities.
+**ADVLive — Advansia Indonesia and Malaysia | Tech lead (2 engineers) | 2021 – Present**
+- Leading two engineers on a Nest + Nuxt + Expo + Postgres rewrite for both countries. Field sales (visits, invoices, stock, geofenced attendance). 50K+ sales records; ~100K field activities.
 
-**Additional projects:** e-Watch for LSI (Flutter canvassing app, ~500K submissions). Road-equipment inventory for three provincial transport agencies. North Kalimantan asset, pricing, and liaison-office systems (Laravel). Narrative Phone for xCareField Japan (Swift and Kotlin). Donation apps (Wakafyuk, Bantu Sesama, Wakaf Bangun Negeri). KAHMI alumni membership app.
+**Additional projects:** Led three engineers on North Kalimantan Laravel systems (assets, pricing, liaison office). Led two on SIMPEL (road equipment, three transport agencies). Led four on Wakaf Bangun Negeri (donations); wrote Flutter on Wakafyuk and Bantu Sesama. Led two native engineers on Narrative Phone (xCareField, Japan), then finished Swift and Kotlin after they left. e-Watch for LSI (~500K submissions). KAHMI alumni app (led web; wrote Flutter).
 
 **Co-Founder and Full-Stack Engineer**
 Belliki — Indonesia | 2016 – 2018
