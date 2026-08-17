@@ -13,6 +13,7 @@ Local folders are the clone names under `~/code` (same as the GitHub repo name).
 | [SimplePol](simplepol.md) | `simpelpol`, `simpelpol-ocr` | SimplePol — Health Check Management System | Sole Full-Stack Engineer | Feb 2026 – present | Production |
 | [ADVLive](advlive.md) | `advlive`, `lamaccatech/apps/advansia` | Advansia — Agricultural Sales Force Automation *(Firestore predecessor; card does not yet cover this rewrite)* | Tech Lead | Oct 2025 – present (ID since 2021) | In progress |
 | [e-Partai / simPAN](e-partai.md) | `simpan`, `simpan_mobile`, `e-partai` | e-Partai — Political Party Management System | Sole Full-Stack Engineer | 2021 – present (rewrite Aug 2025) | Production |
+| [PAN Congress](pan-congress.md) | `lamaccatech/apps/simpan` (kongres) | *(Lamacca `/work`; not on GitHub Selected)* Congress Registration & Attendance · Kongres VI PAN | Sole full-stack | Jul – Sep 2024 | Shipped (Firestore event; later imported into e-partai) |
 | [SDS / Sekaiichi](sekaiichi.md) | `lamaccatech/apps/sekaiichi` | SDS — Building Services Management Platform | Sole Full-Stack Engineer | Jul 2024 – present | Production |
 | [Pantau Relawan](pantau-relawan.md) | `pantau-relawan-monorepo` | Pantau Relawan — Electoral Volunteer Management & Real-Time Vote Monitoring | Tech Lead | 2018–2019; rewrite 2023–present | Production |
 | [e-Watch LSI](e-watch-lsi.md) | `lingkaran-survei-indonesia`; rewrite `lamaccatech/apps/lingkaran-survei-indonesia` | e-Watch LSI — Political Fieldwork Monitoring Platform | Sole Full-Stack Engineer (client-facing) | Dec 2022 – present | Production |
@@ -37,7 +38,9 @@ Local folders are the clone names under `~/code` (same as the GitHub repo name).
 
 **ADVLive** — Advansia’s internal field-operations super-app for Indonesia (live since 2021) and Malaysia. Postgres / Data Connect rewrite of the Indonesia Firestore product after Malaysia HQ requested the same platform (NestJS, Nuxt, Expo).
 
-**e-Partai / simPAN** — Partai Amanat Nasional membership platform (KTA, kepengurusan, volunteers). Firebase simPAN from 2021 (React, Flutter); 2025 cloud-agnostic rewrite (Nest, Postgres, SuperTokens, S3/GCS) merging Pantau Relawan (PAN used that volunteer system for thousands of candidates).
+**e-Partai / simPAN** — Partai Amanat Nasional membership platform (KTA, kepengurusan, volunteers). Firebase simPAN from 2021 (React, Flutter); 2025 cloud-agnostic rewrite (Nest, Postgres, SuperTokens, S3/GCS) merging Pantau Relawan (PAN used that volunteer system for thousands of candidates). Kongres VI is a **separate `/work` card** — [pan-congress.md](pan-congress.md).
+
+**PAN Congress** — Kongres VI ops on the **same simPAN Firestore** (dedicated collections). Solo Next + Functions: CSV/admin peserta, QR cocoards, browser scanner, plenary counts. Git start **2024** (matches badge). Not a Flutter APK.
 
 **SDS / Sekaiichi** — Facility-operations platform for PT Sekaiichi Dwiputra Service: GPS + fingerprint attendance, cleaning proof, inventory, ticketing, and hiring-to-PKWT (Expo, Nuxt, Supabase, Fly.io iClock).
 
@@ -75,13 +78,15 @@ Local folders are the clone names under `~/code` (same as the GitHub repo name).
 
 **e-Perdatin** — Perdatin Jaya (Laravel 10 / Inertia Vue). **Nana main driver**; Irfan on schema/PDF; you review/lead. **Not** Bimo/Nadella. **Not** moved to lamaccatech. Git start **2023**. Site still **2024**.
 
+**PAN Congress** — Kongres VI on simPAN Firebase (Jul–Sep 2024). Solo. Same project, own collections. Scanner is Next `qr-scanner`, not a native app. e-partai later imported the rows; do not fold this into the membership rewrite.
+
 **Brainplus** — First Flutter app (2019). Sole: psychometric/aptitude tests, Factory+Strategy scoring on Cloud Functions, React Bootstrap admin.
 
 ---
 
 ## What to brief next
 
-**Suggested next:** remaining `/work` — **PAN congress**, 2019 LSI situation room.
+**Suggested next:** remaining `/work` — **2019 LSI situation room**.
 
 Confirm you actually owned each card before writing a brief — these are Lamacca company pages, not a personal resume. **Do not edit lamacca.com until the remaining `/work` briefs are done.** Each brief’s **Git start year** (first commit of the original product) is the source of truth for that later repair.
 
@@ -119,7 +124,7 @@ Order is the site order. **Next** = no `*.md` yet. **Skip** = still on the compa
 | SIMAS — Asset Management Information System (site 2024) | Biro Umum Setda Kaltara | Done — [simas.md](simas.md) · **git start 2022** · web-only in this clone |
 | **Standard Price Information System (site 2023)** | BKAD Kaltara | Done — [standard-price.md](standard-price.md) · **git start 2022** · parallel with recon |
 | **Asset Reconciliation Information System (site 2023)** | BKAD Kaltara | Done — [asset-reconciliation.md](asset-reconciliation.md) · **git start 2022** · not a SIMAS import |
-| **Congress Registration & Attendance System (2024)** | PAN | Needs brief |
+| **Congress Registration & Attendance System (2024)** | PAN | Done — [pan-congress.md](pan-congress.md) · **git start 2024** · solo · same Firestore as simPAN; browser scanner |
 | **e-KAHMI (site 2023)** | MN KAHMI | Done — [e-kahmi.md](e-kahmi.md) · **git start 2024** · dashboard/functions in lamaccatech; Flutter stays |
 | **e-Perdatin Jaya (site 2024)** | Perdatin Jaya | Done — [e-perdatin.md](e-perdatin.md) · **git start 2023** · Nana + Irfan · **not** in lamaccatech |
 | **Property & Facility Management System (2022)** | PT Prima Nusantara Services | Done — [prima-nusantara.md](prima-nusantara.md) · **git start 2022** · vendor v1; you rewrote dashboard 2023 |
@@ -136,7 +141,7 @@ Order is the site order. **Next** = no `*.md` yet. **Skip** = still on the compa
 
 ### Suggested briefing order
 
-1. Remaining `/work` — PAN congress, 2019 LSI situation room  
+1. Remaining `/work` — **2019 LSI situation room**  
 2. Then re-rank GitHub Selected Projects against the full set  
 
 **Do not brief:** e-SIAP Korlantas (Figma, discontinued); Patra Logistik (WordPress, not your work).

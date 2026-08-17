@@ -46,7 +46,7 @@ Party structure: **pusat DPP → wilayah DPW → daerah DPD → cabang DPC → r
 **simPAN is the PAN tenancy; e-Partai is the forkable base.** `docs/DUPLICATION.md` is the product: swap `APP_NAME` / domain / KTA template / roles / news crawler, drop `simpan-migration`, ship another party. PAN remains `simPAN` / `simpan.app` / bundle `or.id.pan.simpan`.
 
 **Two Firebase products became one Postgres platform.**  
-- simPAN (`simpan-3619f`): members, KTA, kepengurusan, TPS/saksi/real-count, bacaleg, news, kongres leftovers.  
+- simPAN (`simpan-3619f`): members, KTA, kepengurusan, TPS/saksi/real-count, bacaleg, news, kongres leftovers (see [pan-congress.md](pan-congress.md) — do **not** treat Kongres VI as this rewrite).  
 - Pantau Relawan (`pantau-relawan-by-lamacca`): candidates, volunteer trees, DPT lock settings.  
 Migration app reads both; dashboard has `/pantau-relawan/*`.
 
@@ -71,7 +71,7 @@ Started **7 Nov 2021**. Repo `~/code/simpan`: Nx 13, **605 commits, sole author*
 | **Files** | Cloud Storage (`ktp/`, `kta/`, exports, bacaleg docs, saksi payments) |
 | **Mobile** | **Flutter** companion (Play listing lineage). Not in the Nx tree (`nx-flutter` was in package.json; no `pubspec`). Rewrite mobile is **Expo 54** keeping `or.id.pan.simpan` |
 
-2024 sibling in `lamaccatech/apps/simpan`: still Firebase, Next 15 admin + split function codebases + **Kongres**. Same party, still not cloud-agnostic — the e-Partai rewrite is the actual leave-Firebase step.
+2024 sibling in `lamaccatech/apps/simpan`: still Firebase, Next admin + split function codebases + **Kongres** ([pan-congress.md](pan-congress.md)). Same party, still not cloud-agnostic — the e-Partai rewrite is the actual leave-Firebase step.
 
 Function domains (2021): auth, anggota, kta, offices, administrations, bacaleg, saksi, pelatihan-saksi, export, superadmin. Jobs: stats crawl, news crawl, Excel/KTA zip combiners.
 
@@ -109,7 +109,7 @@ Leftovers: KTA HTML still references some Firebase Storage PNGs; `.firebaserc` u
 |---|---|
 | **Nov 2021** | simPAN greenfield: React+RR dashboard, Firebase Nest functions, Elasticsearch, Flutter mobile |
 | **2022** | Peak Firebase product (members, saksi, bacaleg, KTA, DPT) |
-| **2024** | `lamaccatech/apps/simpan` Next/split-functions/kongres — still Firestore |
+| **2024** | `lamaccatech/apps/simpan` Next/split-functions/kongres — still Firestore ([pan-congress.md](pan-congress.md) for the event) |
 | **Aug 2025** | e-Partai `Initial commit` — schema for users, wilayah, anggota, kepengurusan, pencalegan, saksi, berita |
 | **Sep 2025 – Feb 2026** | Peak rewrite (~1.1k of ~1.46k commits): SuperTokens, adapters, dashboard, Expo, Pantau Relawan, migration |
 | **2026** | Duplication docs, pentest/load-test hosts, graphify notes. Last landing 8 Aug 2026 |
