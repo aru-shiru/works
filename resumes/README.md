@@ -1,6 +1,6 @@
 # Resumes
 
-Company-facing CVs. Attach **one** file per application, never this note.
+Company-facing CVs. Attach **one** file per application, never this note. Project order: [ranking.md](ranking.md).
 
 | Submit this | For this kind of job |
 |---|---|

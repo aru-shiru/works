@@ -2,7 +2,7 @@
 
 Personal source briefs for projects I have shipped. Each project is one markdown file. These are resume-source documents, not finished resume entries.
 
-Shorter public cards live on [github.com/aru-shiru/aru-shiru](https://github.com/aru-shiru/aru-shiru) (Selected Projects). Company-facing lists: [lamacca.com/products](https://lamacca.com/products) (7 platforms) and [lamacca.com/work](https://lamacca.com/work) (24 engagements). Names and years there do not always match these files or GitHub. Some `/work` cards are **skipped** here (you did not ship them). GitHub Selected Projects is a **slot-limited** ranking — re-rank after this list is complete.
+Shorter public cards live on [github.com/aru-shiru/aru-shiru](https://github.com/aru-shiru/aru-shiru), [lamacca.com](https://lamacca.com), and arushiru.dev. They take project **order** from [resumes/ranking.md](resumes/ranking.md). Names and years on those sites do not always match these files yet.
 
 ## Contents
 
@@ -89,7 +89,7 @@ Local folders are the clone names under `~/code` (same as the GitHub repo name).
 
 ## What to brief next
 
-**Suggested next:** re-rank GitHub Selected Projects against the full set. All remaining `/work` briefs are done (skips unchanged).
+**Suggested next:** point public pages at [resumes/ranking.md](resumes/ranking.md). Briefs are done. CVs already follow the ranking.
 
 Confirm you actually owned each card before writing a brief — these are Lamacca company pages, not a personal resume. **`/work` briefs are complete** (e-SIAP and Patra Logistik remain skipped). Repair lamacca.com years from each brief’s **git start** where it exists; the situation room has **no clone**.
 
@@ -144,7 +144,7 @@ Order is the site order. **Next** = no `*.md` yet. **Skip** = still on the compa
 
 ### Suggested briefing order
 
-1. Re-rank GitHub Selected Projects against the full set  
+1. Point GitHub, lamacca.com, and arushiru.dev at [resumes/ranking.md](resumes/ranking.md) (CVs already follow it)  
 2. Then repair lamacca.com years from each brief’s **git start** (situation room has **none**)
 
 **Do not brief:** e-SIAP Korlantas (Figma, discontinued); Patra Logistik (WordPress, not your work).

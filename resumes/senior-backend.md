@@ -23,28 +23,28 @@ PT Lamacca Kreatif Solusi — Jakarta, Indonesia | 2018 – Present
 
 **Technical lead of 2–5 engineers** on team backends (reviews, API split, architecture). Customer success and the client map the domain; I implement when there is no squad.
 
-**e-Partai / simPAN — Partai Amanat Nasional | 2021 – Present**
+**e-Partai / simPAN — Partai Amanat Nasional | Sole engineer | 2021 – Present**
 - Firebase era: Nest on Cloud Functions, Elasticsearch, custom-token auth, membership-card PDF pipeline.
 - Rewrite: NestJS, PostgreSQL, Drizzle, SuperTokens, Redis (cache and BullMQ), Meilisearch, S3/GCS. Terraform for AWS and GCP so a second party is configuration, not a new Firestore project. Expo member app in the same TypeScript monorepo for shared types.
 - Migrated simPAN and Pantau Relawan. Source table ~1.8M rows; ~400K were incomplete voter-roll imports (name and membership number only) and were excluded. ~1.4M members migrated, password hashes imported. RBAC so a national admin cannot page another province’s members.
 
-**SimplePol — driving-license health checks | 2026 – Present**
+**SimplePol — driving-license health checks | Sole engineer | 2026 – Present**
 - Laravel Octane, PostgreSQL RDS (Jakarta), S3, Redis. Identity-first (national ID number), district-level access control, snapshot billing, certificate jobs, token API for Android.
 - Go OCR proxy on Cloud Run. Migrated ~47M legacy rows. ~312K requests/day observed; ~93% cache hit with compute in Singapore and the database in Jakarta. Pest tests; k6 on staging.
 
-**Pantau Relawan | Tech lead (5 engineers) | 2018–2019; 2023 – Present**
-- Led five engineers on the 2023 rewrite. I wrote the Cloud Functions base, custom auth claims, tenant isolation by candidate, Nest + Elasticsearch voter-roll lookup. 2018–19: led two; Laravel on a VPS.
-
-**e-Hibah — Indonesian National Police grants | Tech lead (2 engineers) | 2024 – Present**
-- Led two engineers. Grant lifecycle: proposal → provincial review → headquarters numbering, PDF, audit. Laravel; Fly.io.
-
-**SDS — Sekaiichi | 2024 – Present**
-- Postgres procedures for attendance, cleaning, inventory, recruitment. Scheduled auto-checkout. Fly.io service so fingerprint clocks write the same attendance rows as the phone.
-
-**ADVLive — Advansia | Tech lead (2 engineers) | 2025 – Present**
+**ADVLive — Advansia | Tech lead (2 engineers) | Rewrite Oct 2025 – Present (Indonesia live since 2021)**
 - Leading two engineers. Nest + PostgreSQL so Indonesia and Malaysia share one codebase with relational constraints. Go migrator for the Indonesia Firestore cutover.
 
-**Additional projects:** Led three engineers on North Kalimantan Laravel systems. Geo-attendance API (Nest on Cloud Functions). Donation payment APIs (Midtrans, LinkAja).
+**SDS — Sekaiichi | Sole engineer | 2024 – Present**
+- Postgres procedures for attendance, cleaning, inventory, recruitment. Scheduled auto-checkout. Fly.io service so fingerprint clocks write the same attendance rows as the phone.
+
+**SIMPEL — road equipment (Dishub) | Tech lead (2 engineers) | 2025 – Present**
+- Led two engineers. Clone-per-dinas Laravel API + Expo on Fly.io for three transport agencies. White-label by git clone, not one shared database.
+
+**Pantau Relawan | Tech lead (5 engineers) | 2018–2019; 2023 – Present**
+- Led five engineers on the 2023 rewrite. I wrote the Cloud Functions base, custom auth claims, tenant isolation by candidate, Nest + Elasticsearch voter-roll lookup. 20+ candidate tenants. 2018–19: led two; Laravel on a VPS.
+
+**Additional projects:** Led two engineers on e-Hibah (Polri grants; v1 on Fly.io, later sole Livewire rewrite). Led three on North Kalimantan Laravel systems. Geo-attendance API (Nest on Cloud Functions). Donation payment APIs (Midtrans, LinkAja).
 
 **Co-Founder**
 Belliki — Indonesia | 2016 – 2018
