@@ -138,7 +138,7 @@ The application is Indonesian-first in the data model (column names, enum values
 | Spreadsheets | **PhpSpreadsheet**, **OpenSpout** | Admin/officer exports. |
 | Observability | **Laravel Nightwatch**, **Clockwork** (dev) | Errors, performance, logs in every environment. |
 | Product analytics | **PostHog** (proxied) | Privacy-constrained frontend analytics. |
-| Local / CI | **Laravel Sail**, **Pest 4** (+ browser plugin), **Paratest**, **Pint**, **k6** | Dockerized dev; ~320 test files; parallel suite; monthly staging load test. |
+| Local / CI | **Laravel Sail**, **Pest 4** (+ browser plugin), **Paratest**, **Pint** | Dockerized dev; ~320 test files; parallel suite. |
 | Native clients | Versioned **`/v1` REST API** + **OpenAPI** contract | Android doctor/health-worker app: Google auth, location activation header, walk-in, queues, certificates, OCR tokens. |
 | PWA | **vite-plugin-pwa** (injectManifest) | Installable clinic/field UI. |
 | Sidecar / tools | **Go** OCR proxy; **Go** `tools/migrate` (pgx `COPY`, goroutines) | Hot-path OCR next to users in Jakarta; 47M-row migration in ~37 minutes. |
@@ -243,7 +243,7 @@ Designed and ran a Go streaming migrator (`pgx` COPY, latin1→UTF-8, NIK dedup,
 Pest suite at hundreds of files / thousands of tests; parallel runner; Pint; feature specs before/with the code; concurrency tests for clinic races; gateway fakes; browser tests where they earn their keep.
 
 **Production operations**  
-Laravel Cloud + RDS + S3 topology, right-sizing after real traffic (web and DB downgraded once idle capacity was proven; Multi-AZ turned on before Metro Jaya scale-up), queue/scheduler isolation, cache strategy for the Singapore↔Jakarta RTT, certificate-job memory watch, k6 staging load tests, Shannon pentest runbook, refund/payment reconciliation commands, trial cutover commands.
+Laravel Cloud + RDS + S3 topology, right-sizing after real traffic (web and DB downgraded once idle capacity was proven; Multi-AZ turned on before Metro Jaya scale-up), queue/scheduler isolation, cache strategy for the Singapore↔Jakarta RTT, certificate-job memory watch, Shannon pentest runbook, refund/payment reconciliation commands, trial cutover commands.
 
 **Security & fraud**  
 OCR JWT design, rate limits, identity-link AI with a narrow auto-approve path, immutable identity fields, audit/change history, read-only impersonation, webhook signature verification, private file access via signed URLs.
@@ -317,6 +317,7 @@ PHP 8.5 · Laravel 13 · Livewire 4 · Octane/FrankenPHP · PostgreSQL · Redis/
 | Exact user/revenue numbers | Prefer ops numbers in this brief (~312k req/day, ~47M migrated rows, jurisdictions). GitHub already publishes **1.5M Play Store installs** (legacy) and **~200K monthly health checks** — cite the profile, do not invent extras. |
 | GitHub “Laravel + SQLite + 24 models” | That card lags the rewrite. Live stack is Laravel 13 / Postgres / ~42 models; use this brief. |
 | “100% test coverage” | Large, parallel Pest suite; do not invent a coverage percentage. |
+| k6 / staging load test | **Not run.** Do not cite k6 or a monthly staging load test. |
 
 ---
 

@@ -10,7 +10,7 @@ Technical lead of **2–5 engineers** and hands-on full-stack. TypeScript and PH
 
 ## Skills
 
-**Frontend:** React, Next.js, Vue 3, Nuxt, Inertia, Livewire, TanStack, Tailwind CSS
+**Frontend:** React, Next.js, Vue, Nuxt, Inertia, Livewire, TanStack, Tailwind CSS
 **Backend:** NestJS, Laravel, PostgreSQL, Redis, SuperTokens, Firebase, REST, OpenAPI, BullMQ
 **Mobile:** Flutter, Expo, React Native
 **Infra:** AWS RDS/S3, GCP, Terraform, Docker, Fly.io, Laravel Cloud, Cloudflare Workers
@@ -28,7 +28,7 @@ PT Lamacca Kreatif Solusi — Jakarta, Indonesia | 2018 – Present
 - Migrated off Firebase. ~1.8M source rows; ~400K incomplete voter-roll imports dropped; ~1.4M members and password hashes imported.
 
 **SimplePol | Sole engineer | 2026 – Present**
-- Livewire + Laravel + Postgres: applicant web app, clinic and police consoles, payments, official medical certificates, Android API. Laravel Cloud + Jakarta RDS/S3. ~47M-row legacy load. Pest tests; k6 on staging.
+- Livewire + Laravel + Postgres: applicant web app, clinic and police consoles, payments, official medical certificates, Android API. Laravel Cloud + Jakarta RDS/S3. ~47M-row legacy load. Pest tests.
 
 **SDS — Sekaiichi | Sole engineer | 2024 – Present**
 - Nuxt admin and Expo field app on one Postgres: geofenced clock-in, fingerprint terminals into the same tables, photo cleaning proof, QR stock, public jobs and contract PDFs.

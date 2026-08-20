@@ -10,7 +10,7 @@ Technical lead of **2–5 engineers** and hands-on backend. NestJS and Laravel i
 
 ## Skills
 
-**API:** NestJS, Laravel, Node.js, PHP 8, Go, Cloud Functions
+**API:** NestJS, Laravel, Node.js, PHP, Go, Cloud Functions
 **Data:** PostgreSQL, Drizzle, Eloquent, Redis, BullMQ, Elasticsearch, Meilisearch, Firestore
 **Auth:** SuperTokens, Firebase Auth, custom tokens, RBAC
 **Cloud:** AWS (RDS, S3, ECS), GCP (Cloud Run, Cloud SQL), Terraform, Docker, Firebase, Laravel Cloud, Fly.io, Cloudflare Workers
@@ -30,7 +30,7 @@ PT Lamacca Kreatif Solusi — Jakarta, Indonesia | 2018 – Present
 
 **SimplePol — driving-license health checks | Sole engineer | 2026 – Present**
 - Laravel Octane, PostgreSQL RDS (Jakarta), S3, Redis. Identity-first (national ID number), district-level access control, snapshot billing, certificate jobs, token API for Android.
-- Go OCR proxy on Cloud Run. Migrated ~47M legacy rows. ~312K requests/day observed; ~93% cache hit with compute in Singapore and the database in Jakarta. Pest tests; k6 on staging.
+- Go OCR proxy on Cloud Run. Migrated ~47M legacy rows. ~312K requests/day observed; ~93% cache hit with compute in Singapore and the database in Jakarta. Pest tests.
 
 **ADVLive — Advansia | Tech lead (2 engineers) | Rewrite Oct 2025 – Present (Indonesia live since 2021)**
 - Leading two engineers. Nest + PostgreSQL so Indonesia and Malaysia share one codebase with relational constraints. Go migrator for the Indonesia Firestore cutover.

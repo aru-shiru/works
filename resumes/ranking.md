@@ -52,3 +52,5 @@ Take a prefix or a role-shaped slice. Do not invent a parallel order.
 | General (engineer, fullstack, a short profile) | #1–6 |
 | Backend | e-Partai, SimplePol, ADVLive, SDS, SIMPEL, Pantau Relawan |
 | Flutter / mobile | Pantau Relawan, e-Watch, e-KAHMI, simPAN, donation apps, Brainplus |
+| React Native / Expo | ADVLive, SDS, e-Partai (Expo), SIMPEL, Pantau Relawan (2018 RN), Narrative Phone |
+| Laravel / Nuxt web | e-Partai, SimplePol, SDS, ADVLive, SIMPEL |

@@ -6,3 +6,9 @@
 .vscode/
 interview-prep.md
 
+# Accidental PDF exports next to generic CVs
+resumes/*.pdf
+
+# Company-tailored packets (markdown, CSS, PDF, extra notes). Not committed.
+applications/
+

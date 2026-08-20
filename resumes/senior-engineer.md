@@ -31,7 +31,7 @@ Software consultancy. **Technical lead of 2–5 engineers** on team products (sp
 
 **SimplePol — driving-license health checks | Sole engineer | 2026 – Present**
 - Laravel / PostgreSQL platform for identity, exam, payment, and official medical certificates across clinics, mobile units, and police districts. Replaces a legacy app with 1.5M Play installs (~200K monthly checks). CS and clinic/police operators on process; I own engineering.
-- National ID number as the identity key, ID-card OCR (Gemini via a Go proxy), clinician REST API, Octane on Laravel Cloud + RDS/S3. Migrated ~47M historical rows. Pest tests; k6 load tests on staging.
+- National ID number as the identity key, ID-card OCR (Gemini via a Go proxy), clinician REST API, Octane on Laravel Cloud + RDS/S3. Migrated ~47M historical rows. Pest tests.
 
 **SDS — PT Sekaiichi Dwiputra Service | Sole engineer | 2024 – Present**
 - Building-services ops: GPS and fingerprint attendance, photo-proven cleaning, QR inventory, hiring through fixed-term contracts. Nuxt, Expo, Postgres, Fly.io fingerprint bridge.
