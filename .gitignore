@@ -6,8 +6,10 @@
 .vscode/
 interview-prep.md
 
-# Accidental PDF exports next to generic CVs
+# Accidental PDF/CSS next to generic CVs. Layout lives in applications/.
 resumes/*.pdf
+resumes/*.pdf.css
+resumes/*.css
 
 # Company-tailored packets (markdown, CSS, PDF, extra notes). Not committed.
 applications/
